@@ -1,0 +1,2320 @@
+ASxxxx Linker V03.00 + NoICE + sdld,  page 1.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  l_BIT_BANK                      
+C:   00000000  l_CABS                          
+C:   00000000  l_GSINIT1                       
+C:   00000000  l_GSINIT5                       
+C:   00000000  l_IABS                          
+C:   00000000  l_ISEG                          
+C:   00000000  l_OSEG                          
+C:   00000000  l_PSEG                          
+C:   00000000  l_REG_BANK_1                    
+C:   00000000  l_REG_BANK_3                    
+C:   00000000  l_RSEG                          
+C:   00000000  l_RSEG0                         
+C:   00000000  l_RSEG1                         
+C:   00000000  l_XABS                          
+C:   00000000  l_XINIT                         
+C:   00000000  l_XISEG                         
+C:   00000000  l_XSEG                          
+C:   00000000  l__CODE                         
+C:   00000000  s_BSEG                          
+C:   00000000  s_CABS                          
+C:   00000000  s_DSEG                          
+C:   00000000  s_HOME                          
+C:   00000000  s_IABS                          
+C:   00000000  s_ISEG                          
+C:   00000000  s_REG_BANK_0                    
+C:   00000000  s_RSEG                          
+C:   00000000  s_RSEG0                         
+C:   00000000  s_RSEG1                         
+C:   00000000  s_XABS                          
+C:   00000001  l_BSEG_BYTES                    
+C:   00000001  s_PSEG                          
+C:   00000001  s_XISEG                         
+C:   00000001  s_XSEG                          
+C:   00000003  l_GSFINAL                       
+C:   00000003  l_GSINIT0                       
+C:   00000006  l_GSINIT                        
+C:   00000007  l_BSEG                          
+C:   00000008  l_REG_BANK_0                    
+C:   00000008  l_REG_BANK_2                    
+C:   00000008  s_REG_BANK_1                    
+C:   0000000A  l_GSINIT2                       
+C:   00000010  s_REG_BANK_2                    
+C:   00000018  s_BIT_BANK                      
+C:   00000018  s_OSEG                          
+C:   00000018  s_REG_BANK_3                    
+C:   00000020  s_BSEG_BYTES                    
+C:   00000020  s__CODE                         
+C:   00000022  l_GSINIT3                       
+C:   00000029  l_HOME                          
+C:   00000029  s_GSINIT0                       
+ASxxxx Linker V03.00 + NoICE + sdld,  page 2.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CABS                                00000000    00000000 =           0. bytes (ABS,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000002A  l_GSINIT4                       
+C:   0000002C  s_GSINIT1                       
+C:   0000002C  s_GSINIT2                       
+C:   00000036  s_GSINIT3                       
+C:   00000058  s_GSINIT4                       
+C:   00000062  s_SSEG                          
+C:   00000070  l_DSEG                          
+C:   00000082  s_GSINIT                        
+C:   00000082  s_GSINIT5                       
+C:   00000088  s_GSFINAL                       
+C:   0000008B  s_CSEG                          
+C:   0000009E  l_SSEG                          
+C:   000000E0  l_CONST                         
+C:   00000100  l_IRAM                          
+C:   000008C8  l_CSEG                          
+C:   00000953  s_CONST                         
+C:   00000A33  s_XINIT                         
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 3.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000000  .__.ABS.                           _startup
+     00000080  G$P0$0$0                           ser
+     00000080  G$P0_0$0$0                         ser
+     00000080  _P0                                ser
+     00000080  _P0_0                              ser
+     00000081  G$P0_1$0$0                         ser
+     00000081  G$SP$0$0                           ser
+     00000081  _P0_1                              ser
+     00000081  _SP                                ser
+     00000082  G$DPL$0$0                          ser
+     00000082  G$P0_2$0$0                         ser
+     00000082  _DPL                               ser
+     00000082  _P0_2                              ser
+     00000083  G$DPH$0$0                          ser
+     00000083  G$P0_3$0$0                         ser
+     00000083  _DPH                               ser
+     00000083  _P0_3                              ser
+     00000084  G$P0_4$0$0                         ser
+     00000084  _P0_4                              ser
+     00000085  G$P0_5$0$0                         ser
+     00000085  _P0_5                              ser
+     00000086  G$P0_6$0$0                         ser
+     00000086  _P0_6                              ser
+     00000087  G$P0_7$0$0                         ser
+     00000087  G$PCON$0$0                         ser
+     00000087  _P0_7                              ser
+     00000087  _PCON                              ser
+     00000088  G$IT0$0$0                          ser
+     00000088  G$TCON$0$0                         ser
+     00000088  _IT0                               ser
+     00000088  _TCON                              ser
+     00000089  G$IE0$0$0                          ser
+     00000089  G$TMOD$0$0                         ser
+     00000089  _IE0                               ser
+     00000089  _TMOD                              ser
+     0000008A  G$IT1$0$0                          ser
+     0000008A  G$TL0$0$0                          ser
+     0000008A  _IT1                               ser
+     0000008A  _TL0                               ser
+     0000008B  G$IE1$0$0                          ser
+     0000008B  G$TL1$0$0                          ser
+     0000008B  _IE1                               ser
+     0000008B  _TL1                               ser
+     0000008C  G$TH0$0$0                          ser
+     0000008C  G$TR0$0$0                          ser
+     0000008C  _TH0                               ser
+     0000008C  _TR0                               ser
+     0000008D  G$TF0$0$0                          ser
+     0000008D  G$TH1$0$0                          ser
+     0000008D  _TF0                               ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 4.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     0000008D  _TH1                               ser
+     0000008E  G$TR1$0$0                          ser
+     0000008E  _TR1                               ser
+     0000008F  G$TF1$0$0                          ser
+     0000008F  _TF1                               ser
+     00000090  G$P1$0$0                           ser
+     00000090  G$P1_0$0$0                         ser
+     00000090  _P1                                ser
+     00000090  _P1_0                              ser
+     00000091  G$P1_1$0$0                         ser
+     00000091  _P1_1                              ser
+     00000092  G$P1_2$0$0                         ser
+     00000092  _P1_2                              ser
+     00000093  G$P1_3$0$0                         ser
+     00000093  _P1_3                              ser
+     00000094  G$P1_4$0$0                         ser
+     00000094  _P1_4                              ser
+     00000095  G$P1_5$0$0                         ser
+     00000095  _P1_5                              ser
+     00000096  G$P1_6$0$0                         ser
+     00000096  _P1_6                              ser
+     00000097  G$P1_7$0$0                         ser
+     00000097  _P1_7                              ser
+     00000098  G$RI$0$0                           ser
+     00000098  G$SCON$0$0                         ser
+     00000098  _RI                                ser
+     00000098  _SCON                              ser
+     00000099  G$SBUF$0$0                         ser
+     00000099  G$TI$0$0                           ser
+     00000099  _SBUF                              ser
+     00000099  _TI                                ser
+     0000009A  G$RB8$0$0                          ser
+     0000009A  _RB8                               ser
+     0000009B  G$TB8$0$0                          ser
+     0000009B  _TB8                               ser
+     0000009C  G$REN$0$0                          ser
+     0000009C  _REN                               ser
+     0000009D  G$SM2$0$0                          ser
+     0000009D  _SM2                               ser
+     0000009E  G$SM1$0$0                          ser
+     0000009E  _SM1                               ser
+     0000009F  G$SM0$0$0                          ser
+     0000009F  _SM0                               ser
+     000000A0  G$P2$0$0                           ser
+     000000A0  G$P2_0$0$0                         ser
+     000000A0  _P2                                ser
+     000000A0  _P2_0                              ser
+     000000A0  __XPAGE                            
+     000000A1  G$P2_1$0$0                         ser
+     000000A1  _P2_1                              ser
+     000000A2  G$P2_2$0$0                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 5.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000A2  _P2_2                              ser
+     000000A3  G$P2_3$0$0                         ser
+     000000A3  _P2_3                              ser
+     000000A4  G$P2_4$0$0                         ser
+     000000A4  _P2_4                              ser
+     000000A5  G$P2_5$0$0                         ser
+     000000A5  _P2_5                              ser
+     000000A6  G$P2_6$0$0                         ser
+     000000A6  _P2_6                              ser
+     000000A7  G$P2_7$0$0                         ser
+     000000A7  _P2_7                              ser
+     000000A8  G$EX0$0$0                          ser
+     000000A8  G$IE$0$0                           ser
+     000000A8  _EX0                               ser
+     000000A8  _IE                                ser
+     000000A9  G$ET0$0$0                          ser
+     000000A9  _ET0                               ser
+     000000AA  G$EX1$0$0                          ser
+     000000AA  _EX1                               ser
+     000000AB  G$ET1$0$0                          ser
+     000000AB  _ET1                               ser
+     000000AC  G$ES$0$0                           ser
+     000000AC  _ES                                ser
+     000000AD  G$ET2$0$0                          ser
+     000000AD  _ET2                               ser
+     000000AF  G$EA$0$0                           ser
+     000000AF  _EA                                ser
+     000000B0  G$P3$0$0                           ser
+     000000B0  G$P3_0$0$0                         ser
+     000000B0  G$RXD$0$0                          ser
+     000000B0  _P3                                ser
+     000000B0  _P3_0                              ser
+     000000B0  _RXD                               ser
+     000000B1  G$P3_1$0$0                         ser
+     000000B1  G$TXD$0$0                          ser
+     000000B1  _P3_1                              ser
+     000000B1  _TXD                               ser
+     000000B2  G$INT0$0$0                         ser
+     000000B2  G$P3_2$0$0                         ser
+     000000B2  _INT0                              ser
+     000000B2  _P3_2                              ser
+     000000B3  G$INT1$0$0                         ser
+     000000B3  G$P3_3$0$0                         ser
+     000000B3  _INT1                              ser
+     000000B3  _P3_3                              ser
+     000000B4  G$P3_4$0$0                         ser
+     000000B4  G$T0$0$0                           ser
+     000000B4  _P3_4                              ser
+     000000B4  _T0                                ser
+     000000B5  G$P3_5$0$0                         ser
+     000000B5  G$T1$0$0                           ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 6.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000B5  _P3_5                              ser
+     000000B5  _T1                                ser
+     000000B6  G$P3_6$0$0                         ser
+     000000B6  G$WR$0$0                           ser
+     000000B6  _P3_6                              ser
+     000000B6  _WR                                ser
+     000000B7  G$P3_7$0$0                         ser
+     000000B7  G$RD$0$0                           ser
+     000000B7  _P3_7                              ser
+     000000B7  _RD                                ser
+     000000B8  G$IP$0$0                           ser
+     000000B8  G$PX0$0$0                          ser
+     000000B8  _IP                                ser
+     000000B8  _PX0                               ser
+     000000B9  G$PT0$0$0                          ser
+     000000B9  _PT0                               ser
+     000000BA  G$PX1$0$0                          ser
+     000000BA  _PX1                               ser
+     000000BB  G$PT1$0$0                          ser
+     000000BB  _PT1                               ser
+     000000BC  G$PS$0$0                           ser
+     000000BC  _PS                                ser
+     000000BD  G$PT2$0$0                          ser
+     000000BD  _PT2                               ser
+     000000C8  G$CP_RL2$0$0                       ser
+     000000C8  G$T2CON$0$0                        ser
+     000000C8  G$T2CON_0$0$0                      ser
+     000000C8  _CP_RL2                            ser
+     000000C8  _T2CON                             ser
+     000000C8  _T2CON_0                           ser
+     000000C9  G$C_T2$0$0                         ser
+     000000C9  G$T2CON_1$0$0                      ser
+     000000C9  _C_T2                              ser
+     000000C9  _T2CON_1                           ser
+     000000CA  G$RCAP2L$0$0                       ser
+     000000CA  G$T2CON_2$0$0                      ser
+     000000CA  G$TR2$0$0                          ser
+     000000CA  _RCAP2L                            ser
+     000000CA  _T2CON_2                           ser
+     000000CA  _TR2                               ser
+     000000CB  G$EXEN2$0$0                        ser
+     000000CB  G$RCAP2H$0$0                       ser
+     000000CB  G$T2CON_3$0$0                      ser
+     000000CB  _EXEN2                             ser
+     000000CB  _RCAP2H                            ser
+     000000CB  _T2CON_3                           ser
+     000000CC  G$T2CON_4$0$0                      ser
+     000000CC  G$TCLK$0$0                         ser
+     000000CC  G$TL2$0$0                          ser
+     000000CC  _T2CON_4                           ser
+     000000CC  _TCLK                              ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 7.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+.  .ABS.                            00000000    00000000 =           0. bytes (ABS,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     000000CC  _TL2                               ser
+     000000CD  G$RCLK$0$0                         ser
+     000000CD  G$T2CON_5$0$0                      ser
+     000000CD  G$TH2$0$0                          ser
+     000000CD  _RCLK                              ser
+     000000CD  _T2CON_5                           ser
+     000000CD  _TH2                               ser
+     000000CE  G$EXF2$0$0                         ser
+     000000CE  G$T2CON_6$0$0                      ser
+     000000CE  _EXF2                              ser
+     000000CE  _T2CON_6                           ser
+     000000CF  G$T2CON_7$0$0                      ser
+     000000CF  G$TF2$0$0                          ser
+     000000CF  _T2CON_7                           ser
+     000000CF  _TF2                               ser
+     000000D0  G$P$0$0                            ser
+     000000D0  G$PSW$0$0                          ser
+     000000D0  _P                                 ser
+     000000D0  _PSW                               ser
+     000000D1  G$F1$0$0                           ser
+     000000D1  _F1                                ser
+     000000D2  G$OV$0$0                           ser
+     000000D2  _OV                                ser
+     000000D3  G$RS0$0$0                          ser
+     000000D3  _RS0                               ser
+     000000D4  G$RS1$0$0                          ser
+     000000D4  _RS1                               ser
+     000000D5  G$F0$0$0                           ser
+     000000D5  _F0                                ser
+     000000D6  G$AC$0$0                           ser
+     000000D6  _AC                                ser
+     000000D7  G$CY$0$0                           ser
+     000000D7  _CY                                ser
+     000000E0  G$ACC$0$0                          ser
+     000000E0  _ACC                               ser
+     000000F0  G$B$0$0                            ser
+     000000F0  _B                                 ser
+     000000F5  _B_5                               _gptrget
+     000000F6  _B_6                               _gptrget
+     000000F7  _B_7                               _gptrget
+ASxxxx Linker V03.00 + NoICE + sdld,  page 8.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+BSEG_BYTES                          00000020    00000001 =           1. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 9.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_0                          00000000    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 10.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+REG_BANK_2                          00000010    00000008 =           8. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 11.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+DSEG                                00000000    00000070 =         112. bytes (REL,CON)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000021  G$stx_index_in$0$0                 ser
+     00000021  _stx_index_in                      ser
+     00000022  G$stx_index_out$0$0                ser
+     00000022  _stx_index_out                     ser
+     00000023  G$stx_buffer$0$0                   ser
+     00000023  _stx_buffer                        ser
+     00000041  G$bufer$0$0                        ser
+     00000041  _bufer                             ser
+     00000055  G$count$0$0                        ser
+     00000055  _count                             ser
+     00000056  G$complit$0$0                      ser
+     00000056  _complit                           ser
+     00000057  G$counter$0$0                      ser
+     00000057  _counter                           ser
+     00000060  Lser.main$millis$1$68              ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 12.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+SSEG                                00000062    0000009E =         158. bytes (REL,OVR)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+     00000062  __start__stack                     ser
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 13.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+HOME                                00000000    00000029 =          41. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000000  A$ser$522                          ser
+C:   00000003  A$ser$523                          ser
+C:   0000000B  A$ser$525                          ser
+C:   00000013  A$ser$527                          ser
+C:   0000001B  A$ser$529                          ser
+C:   00000023  A$ser$531                          ser
+C:   00000026  A$ser$559                          ser
+C:   00000026  __sdcc_program_startup             ser
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 14.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT0                             00000029    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000029  __sdcc_gsinit_startup              
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 15.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT2                             0000002C    0000000A =          10. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+ASxxxx Linker V03.00 + NoICE + sdld,  page 16.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT3                             00000036    00000022 =          34. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000036  __mcs51_genXINIT                   
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 17.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT4                             00000058    0000002A =          42. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000058  __mcs51_genRAMCLEAR                
+C:   0000005E  __mcs51_genXRAMCLEAR               
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 18.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSINIT                              00000082    00000006 =           6. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000082  A$ser$547                          ser
+C:   00000082  C$ser.c$16$1$68                    ser
+C:   00000085  A$ser$550                          ser
+C:   00000085  C$ser.c$17$1$68                    ser
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 19.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+GSFINAL                             00000088    00000003 =           3. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000088  A$ser$552                          ser
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 20.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000008B  A$ser$587                          ser
+C:   0000008B  C$ser.c$28$0$0                     ser
+C:   0000008B  C$ser.c$30$1$2                     ser
+C:   0000008B  G$I2C_delay$0$0                    ser
+C:   0000008B  _I2C_delay                         ser
+C:   0000008D  A$ser$589                          ser
+C:   0000008F  A$ser$590                          ser
+C:   00000090  A$ser$591                          ser
+C:   00000091  A$ser$592                          ser
+C:   00000092  A$ser$593                          ser
+C:   00000094  A$ser$596                          ser
+C:   00000094  C$ser.c$31$1$2                     ser
+C:   00000094  XG$I2C_delay$0$0                   ser
+C:   00000095  A$ser$609                          ser
+C:   00000095  C$ser.c$32$1$2                     ser
+C:   00000095  C$ser.c$33$1$4                     ser
+C:   00000095  G$I2C_clock$0$0                    ser
+C:   00000095  _I2C_clock                         ser
+C:   00000098  A$ser$612                          ser
+C:   00000098  C$ser.c$34$1$4                     ser
+C:   0000009A  A$ser$615                          ser
+C:   0000009A  C$ser.c$35$1$4                     ser
+C:   0000009D  A$ser$618                          ser
+C:   0000009D  C$ser.c$36$1$4                     ser
+C:   0000009F  A$ser$621                          ser
+C:   0000009F  C$ser.c$37$1$4                     ser
+C:   0000009F  XG$I2C_clock$0$0                   ser
+C:   000000A0  A$ser$634                          ser
+C:   000000A0  C$ser.c$38$1$4                     ser
+C:   000000A0  C$ser.c$39$1$6                     ser
+C:   000000A0  G$I2C_start$0$0                    ser
+C:   000000A0  _I2C_start                         ser
+C:   000000A3  A$ser$635                          ser
+C:   000000A5  A$ser$640                          ser
+C:   000000A5  C$ser.c$40$1$6                     ser
+C:   000000A7  A$ser$643                          ser
+C:   000000A7  C$ser.c$41$1$6                     ser
+C:   000000A9  A$ser$646                          ser
+C:   000000A9  C$ser.c$42$1$6                     ser
+C:   000000AC  A$ser$649                          ser
+C:   000000AC  C$ser.c$43$1$6                     ser
+C:   000000AE  A$ser$652                          ser
+C:   000000AE  C$ser.c$44$1$6                     ser
+C:   000000B1  A$ser$655                          ser
+C:   000000B1  C$ser.c$45$1$6                     ser
+C:   000000B3  A$ser$658                          ser
+C:   000000B3  C$ser.c$46$1$6                     ser
+C:   000000B3  XG$I2C_start$0$0                   ser
+C:   000000B4  A$ser$673                          ser
+C:   000000B4  C$ser.c$47$1$6                     ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 21.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000B4  C$ser.c$48$1$8                     ser
+C:   000000B4  C$ser.c$49$1$8                     ser
+C:   000000B4  G$I2C_stop$0$0                     ser
+C:   000000B4  _I2C_stop                          ser
+C:   000000B7  A$ser$674                          ser
+C:   000000B9  A$ser$679                          ser
+C:   000000B9  C$ser.c$50$1$8                     ser
+C:   000000BB  A$ser$682                          ser
+C:   000000BB  C$ser.c$51$1$8                     ser
+C:   000000BE  A$ser$685                          ser
+C:   000000BE  C$ser.c$52$1$8                     ser
+C:   000000C0  A$ser$688                          ser
+C:   000000C0  C$ser.c$53$1$8                     ser
+C:   000000C3  A$ser$691                          ser
+C:   000000C3  C$ser.c$54$1$8                     ser
+C:   000000C5  A$ser$694                          ser
+C:   000000C5  C$ser.c$55$1$8                     ser
+C:   000000C5  XG$I2C_stop$0$0                    ser
+C:   000000C6  A$ser$708                          ser
+C:   000000C6  C$ser.c$56$1$8                     ser
+C:   000000C6  G$I2C_write$0$0                    ser
+C:   000000C6  _I2C_write                         ser
+C:   000000C8  A$ser$711                          ser
+C:   000000CA  A$ser$715                          ser
+C:   000000CA  C$ser.c$61$2$11                    ser
+C:   000000CB  A$ser$716                          ser
+C:   000000CC  A$ser$717                          ser
+C:   000000CE  A$ser$720                          ser
+C:   000000CE  C$ser.c$63$2$11                    ser
+C:   000000D0  A$ser$721                          ser
+C:   000000D2  A$ser$722                          ser
+C:   000000D5  A$ser$723                          ser
+C:   000000D7  A$ser$724                          ser
+C:   000000D9  A$ser$727                          ser
+C:   000000D9  C$ser.c$64$2$11                    ser
+C:   000000DA  A$ser$728                          ser
+C:   000000DB  A$ser$729                          ser
+C:   000000DC  A$ser$732                          ser
+C:   000000DC  C$ser.c$59$1$10                    ser
+C:   000000DD  A$ser$733                          ser
+C:   000000E0  A$ser$735                          ser
+C:   000000E2  A$ser$738                          ser
+C:   000000E2  C$ser.c$66$1$10                    ser
+C:   000000E4  A$ser$741                          ser
+C:   000000E4  C$ser.c$67$1$10                    ser
+C:   000000E7  A$ser$744                          ser
+C:   000000E7  C$ser.c$68$1$10                    ser
+C:   000000E9  A$ser$747                          ser
+C:   000000E9  C$ser.c$69$1$10                    ser
+C:   000000EC  A$ser$750                          ser
+C:   000000EC  C$ser.c$70$1$10                    ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 22.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000000EE  A$ser$753                          ser
+C:   000000EE  C$ser.c$71$1$10                    ser
+C:   000000F0  A$ser$756                          ser
+C:   000000F0  C$ser.c$72$1$10                    ser
+C:   000000F3  A$ser$759                          ser
+C:   000000F3  C$ser.c$73$1$10                    ser
+C:   000000F3  XG$I2C_write$0$0                   ser
+C:   000000F4  A$ser$775                          ser
+C:   000000F4  C$ser.c$74$1$10                    ser
+C:   000000F4  C$ser.c$77$1$13                    ser
+C:   000000F4  G$I2C_read$0$0                     ser
+C:   000000F4  _I2C_read                          ser
+C:   000000F6  A$ser$778                          ser
+C:   000000F8  A$ser$782                          ser
+C:   000000F8  C$ser.c$80$2$14                    ser
+C:   000000FA  A$ser$783                          ser
+C:   000000FC  A$ser$784                          ser
+C:   000000FF  A$ser$787                          ser
+C:   000000FF  C$ser.c$81$2$14                    ser
+C:   00000101  A$ser$790                          ser
+C:   00000101  C$ser.c$82$2$14                    ser
+C:   00000104  A$ser$791                          ser
+C:   00000106  A$ser$792                          ser
+C:   00000108  A$ser$795                          ser
+C:   00000108  C$ser.c$83$2$14                    ser
+C:   0000010A  A$ser$796                          ser
+C:   0000010C  A$ser$799                          ser
+C:   0000010C  C$ser.c$84$2$14                    ser
+C:   0000010D  A$ser$800                          ser
+C:   0000010E  A$ser$803                          ser
+C:   0000010E  C$ser.c$85$2$14                    ser
+C:   0000010F  A$ser$804                          ser
+C:   00000111  A$ser$805                          ser
+C:   00000112  A$ser$806                          ser
+C:   00000113  A$ser$807                          ser
+C:   00000114  A$ser$808                          ser
+C:   00000115  A$ser$809                          ser
+C:   00000116  A$ser$812                          ser
+C:   00000116  C$ser.c$86$2$14                    ser
+C:   00000118  A$ser$815                          ser
+C:   00000118  C$ser.c$78$1$13                    ser
+C:   00000119  A$ser$816                          ser
+C:   0000011C  A$ser$818                          ser
+C:   0000011E  A$ser$821                          ser
+C:   0000011E  C$ser.c$88$1$13                    ser
+C:   00000120  A$ser$824                          ser
+C:   00000120  C$ser.c$89$1$13                    ser
+C:   00000120  XG$I2C_read$0$0                    ser
+C:   00000121  A$ser$837                          ser
+C:   00000121  C$ser.c$90$1$13                    ser
+C:   00000121  C$ser.c$92$1$15                    ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 23.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000121  G$I2C_ack$0$0                      ser
+C:   00000121  _I2C_ack                           ser
+C:   00000123  A$ser$840                          ser
+C:   00000123  C$ser.c$93$1$15                    ser
+C:   00000126  A$ser$843                          ser
+C:   00000126  C$ser.c$94$1$15                    ser
+C:   00000129  A$ser$846                          ser
+C:   00000129  C$ser.c$95$1$15                    ser
+C:   0000012B  A$ser$849                          ser
+C:   0000012B  C$ser.c$96$1$15                    ser
+C:   0000012B  XG$I2C_ack$0$0                     ser
+C:   0000012C  A$ser$862                          ser
+C:   0000012C  C$ser.c$97$1$15                    ser
+C:   0000012C  C$ser.c$99$1$16                    ser
+C:   0000012C  G$I2C_nack$0$0                     ser
+C:   0000012C  _I2C_nack                          ser
+C:   0000012E  A$ser$865                          ser
+C:   0000012E  C$ser.c$100$1$16                   ser
+C:   00000131  A$ser$868                          ser
+C:   00000131  C$ser.c$101$1$16                   ser
+C:   00000134  A$ser$871                          ser
+C:   00000134  C$ser.c$102$1$16                   ser
+C:   00000136  A$ser$874                          ser
+C:   00000136  C$ser.c$103$1$16                   ser
+C:   00000136  XG$I2C_nack$0$0                    ser
+C:   00000137  A$ser$887                          ser
+C:   00000137  C$ser.c$105$1$16                   ser
+C:   00000137  C$ser.c$106$1$18                   ser
+C:   00000137  G$serial_init$0$0                  ser
+C:   00000137  _serial_init                       ser
+C:   0000013A  A$ser$890                          ser
+C:   0000013A  C$ser.c$107$1$18                   ser
+C:   0000013D  A$ser$893                          ser
+C:   0000013D  C$ser.c$108$1$18                   ser
+C:   0000013F  A$ser$896                          ser
+C:   0000013F  C$ser.c$109$1$18                   ser
+C:   00000141  A$ser$899                          ser
+C:   00000141  C$ser.c$110$1$18                   ser
+C:   00000143  A$ser$902                          ser
+C:   00000143  C$ser.c$111$1$18                   ser
+C:   00000146  A$ser$905                          ser
+C:   00000146  C$ser.c$112$1$18                   ser
+C:   00000149  A$ser$908                          ser
+C:   00000149  C$ser.c$113$1$18                   ser
+C:   0000014B  A$ser$911                          ser
+C:   0000014B  C$ser.c$114$1$18                   ser
+C:   0000014D  A$ser$914                          ser
+C:   0000014D  C$ser.c$115$1$18                   ser
+C:   0000014F  A$ser$917                          ser
+C:   0000014F  C$ser.c$116$1$18                   ser
+C:   00000152  A$ser$918                          ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 24.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000155  A$ser$921                          ser
+C:   00000155  C$ser.c$117$1$18                   ser
+C:   00000157  A$ser$924                          ser
+C:   00000157  C$ser.c$118$1$18                   ser
+C:   00000159  A$ser$927                          ser
+C:   00000159  C$ser.c$119$1$18                   ser
+C:   0000015B  A$ser$930                          ser
+C:   0000015B  C$ser.c$120$1$18                   ser
+C:   0000015D  A$ser$933                          ser
+C:   0000015D  C$ser.c$121$1$18                   ser
+C:   0000015D  XG$serial_init$0$0                 ser
+C:   0000015E  A$ser$954                          ser
+C:   0000015E  C$ser.c$122$1$18                   ser
+C:   0000015E  G$serial_interrupt_handler$0$0     ser
+C:   0000015E  _serial_interrupt_handler          ser
+C:   00000160  A$ser$955                          ser
+C:   00000162  A$ser$956                          ser
+C:   00000165  A$ser$959                          ser
+C:   00000165  C$ser.c$124$1$20                   ser
+C:   00000167  A$ser$964                          ser
+C:   00000167  C$ser.c$125$1$20                   ser
+C:   00000167  C$ser.c$126$2$21                   ser
+C:   0000016A  A$ser$965                          ser
+C:   0000016C  A$ser$969                          ser
+C:   0000016C  C$ser.c$127$2$21                   ser
+C:   0000016E  A$ser$972                          ser
+C:   0000016E  C$ser.c$128$2$21                   ser
+C:   00000171  A$ser$973                          ser
+C:   00000174  A$ser$977                          ser
+C:   00000174  C$ser.c$129$2$21                   ser
+C:   00000177  A$ser$978                          ser
+C:   0000017A  A$ser$982                          ser
+C:   0000017A  C$ser.c$130$2$21                   ser
+C:   0000017C  A$ser$983                          ser
+C:   0000017E  A$ser$984                          ser
+C:   0000017F  A$ser$985                          ser
+C:   00000181  A$ser$988                          ser
+C:   00000181  C$ser.c$131$2$21                   ser
+C:   00000183  A$ser$991                          ser
+C:   00000183  C$ser.c$132$2$21                   ser
+C:   00000185  A$ser$992                          ser
+C:   00000187  A$ser$993                          ser
+C:   00000189  A$ser$994                          ser
+C:   0000018C  A$ser$1000                         ser
+C:   0000018C  C$ser.c$134$1$20                   ser
+C:   0000018C  C$ser.c$135$2$22                   ser
+C:   0000018F  A$ser$1001                         ser
+C:   00000191  A$ser$1005                         ser
+C:   00000191  C$ser.c$136$2$22                   ser
+C:   00000193  A$ser$1006                         ser
+C:   00000196  A$ser$1009                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 25.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000196  C$ser.c$137$3$23                   ser
+C:   00000198  A$ser$1012                         ser
+C:   00000198  C$ser.c$138$3$23                   ser
+C:   0000019A  A$ser$1015                         ser
+C:   0000019A  C$ser.c$139$3$23                   ser
+C:   0000019D  A$ser$1016                         ser
+C:   000001A0  A$ser$1017                         ser
+C:   000001A2  A$ser$1021                         ser
+C:   000001A2  C$ser.c$142$3$24                   ser
+C:   000001A4  A$ser$1022                         ser
+C:   000001A6  A$ser$1023                         ser
+C:   000001A7  A$ser$1024                         ser
+C:   000001A9  A$ser$1025                         ser
+C:   000001AA  A$ser$1026                         ser
+C:   000001AC  A$ser$1029                         ser
+C:   000001AC  C$ser.c$143$3$24                   ser
+C:   000001AE  A$ser$1030                         ser
+C:   000001B0  A$ser$1031                         ser
+C:   000001B2  A$ser$1032                         ser
+C:   000001B5  A$ser$1036                         ser
+C:   000001B5  C$ser.c$146$1$20                   ser
+C:   000001B7  A$ser$1037                         ser
+C:   000001B9  A$ser$1038                         ser
+C:   000001BB  A$ser$1041                         ser
+C:   000001BB  C$ser.c$147$1$20                   ser
+C:   000001BB  XG$serial_interrupt_handler$0$0    ser
+C:   000001BC  A$ser$1065                         ser
+C:   000001BC  C$ser.c$148$1$20                   ser
+C:   000001BC  G$Print$0$0                        ser
+C:   000001BC  _Print                             ser
+C:   000001BE  A$ser$1068                         ser
+C:   000001BE  C$ser.c$149$1$26                   ser
+C:   000001C0  A$ser$1069                         ser
+C:   000001C2  A$ser$1070                         ser
+C:   000001C3  A$ser$1071                         ser
+C:   000001C5  A$ser$1072                         ser
+C:   000001C6  A$ser$1073                         ser
+C:   000001C8  A$ser$1076                         ser
+C:   000001C8  C$ser.c$150$1$26                   ser
+C:   000001CA  A$ser$1077                         ser
+C:   000001CC  A$ser$1078                         ser
+C:   000001CE  A$ser$1079                         ser
+C:   000001D1  A$ser$1083                         ser
+C:   000001D1  C$ser.c$151$1$26                   ser
+C:   000001D3  A$ser$1088                         ser
+C:   000001D3  C$ser.c$152$1$26                   ser
+C:   000001D3  C$ser.c$153$2$27                   ser
+C:   000001D6  A$ser$1089                         ser
+C:   000001D8  A$ser$1093                         ser
+C:   000001D8  C$ser.c$154$2$27                   ser
+C:   000001DA  A$ser$1097                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 26.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000001DA  C$ser.c$156$1$26                   ser
+C:   000001DC  A$ser$1100                         ser
+C:   000001DC  C$ser.c$157$1$26                   ser
+C:   000001DC  XG$Print$0$0                       ser
+C:   000001DD  A$ser$1113                         ser
+C:   000001DD  C$ser.c$158$1$26                   ser
+C:   000001DD  G$sPrint$0$0                       ser
+C:   000001DD  _sPrint                            ser
+C:   000001DF  A$ser$1114                         ser
+C:   000001E1  A$ser$1115                         ser
+C:   000001E3  A$ser$1119                         ser
+C:   000001E3  C$ser.c$159$1$29                   ser
+C:   000001E5  A$ser$1120                         ser
+C:   000001E7  A$ser$1121                         ser
+C:   000001E9  A$ser$1122                         ser
+C:   000001EC  A$ser$1123                         ser
+C:   000001ED  A$ser$1124                         ser
+C:   000001EF  A$ser$1125                         ser
+C:   000001F1  A$ser$1126                         ser
+C:   000001F2  A$ser$1127                         ser
+C:   000001F5  A$ser$1128                         ser
+C:   000001F6  A$ser$1130                         ser
+C:   000001F8  A$ser$1131                         ser
+C:   000001FA  A$ser$1132                         ser
+C:   000001FC  A$ser$1133                         ser
+C:   000001FF  A$ser$1134                         ser
+C:   00000201  A$ser$1135                         ser
+C:   00000203  A$ser$1136                         ser
+C:   00000205  A$ser$1137                         ser
+C:   00000207  A$ser$1141                         ser
+C:   00000207  C$ser.c$160$1$29                   ser
+C:   00000207  XG$sPrint$0$0                      ser
+C:   00000208  A$ser$1154                         ser
+C:   00000208  C$ser.c$164$1$29                   ser
+C:   00000208  C$ser.c$165$1$31                   ser
+C:   00000208  G$readcounter$0$0                  ser
+C:   00000208  _readcounter                       ser
+C:   0000020B  A$ser$1157                         ser
+C:   0000020B  C$ser.c$166$1$31                   ser
+C:   0000020E  A$ser$1158                         ser
+C:   00000211  A$ser$1161                         ser
+C:   00000211  C$ser.c$167$1$31                   ser
+C:   00000214  A$ser$1162                         ser
+C:   00000217  A$ser$1165                         ser
+C:   00000217  C$ser.c$168$1$31                   ser
+C:   0000021A  A$ser$1168                         ser
+C:   0000021A  C$ser.c$169$1$31                   ser
+C:   0000021D  A$ser$1169                         ser
+C:   00000220  A$ser$1172                         ser
+C:   00000220  C$ser.c$170$1$31                   ser
+C:   00000223  A$ser$1173                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 27.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000225  A$ser$1174                         ser
+C:   00000227  A$ser$1177                         ser
+C:   00000227  C$ser.c$171$1$31                   ser
+C:   0000022A  A$ser$1180                         ser
+C:   0000022A  C$ser.c$172$1$31                   ser
+C:   0000022D  A$ser$1181                         ser
+C:   0000022F  A$ser$1182                         ser
+C:   00000231  A$ser$1185                         ser
+C:   00000231  C$ser.c$173$1$31                   ser
+C:   00000234  A$ser$1188                         ser
+C:   00000234  C$ser.c$174$1$31                   ser
+C:   00000237  A$ser$1189                         ser
+C:   00000239  A$ser$1190                         ser
+C:   0000023B  A$ser$1193                         ser
+C:   0000023B  C$ser.c$175$1$31                   ser
+C:   0000023E  A$ser$1196                         ser
+C:   0000023E  C$ser.c$176$1$31                   ser
+C:   00000241  A$ser$1197                         ser
+C:   00000243  A$ser$1198                         ser
+C:   00000245  A$ser$1201                         ser
+C:   00000245  C$ser.c$177$1$31                   ser
+C:   00000248  A$ser$1204                         ser
+C:   00000248  C$ser.c$178$1$31                   ser
+C:   0000024B  A$ser$1205                         ser
+C:   0000024D  A$ser$1206                         ser
+C:   0000024F  A$ser$1209                         ser
+C:   0000024F  C$ser.c$179$1$31                   ser
+C:   00000252  A$ser$1212                         ser
+C:   00000252  C$ser.c$180$1$31                   ser
+C:   00000255  A$ser$1213                         ser
+C:   00000257  A$ser$1214                         ser
+C:   00000259  A$ser$1217                         ser
+C:   00000259  C$ser.c$181$1$31                   ser
+C:   0000025C  A$ser$1220                         ser
+C:   0000025C  C$ser.c$182$1$31                   ser
+C:   0000025F  A$ser$1221                         ser
+C:   00000261  A$ser$1222                         ser
+C:   00000263  A$ser$1225                         ser
+C:   00000263  C$ser.c$183$1$31                   ser
+C:   00000266  A$ser$1228                         ser
+C:   00000266  C$ser.c$184$1$31                   ser
+C:   00000269  A$ser$1229                         ser
+C:   0000026B  A$ser$1230                         ser
+C:   0000026D  A$ser$1233                         ser
+C:   0000026D  C$ser.c$185$1$31                   ser
+C:   00000270  A$ser$1236                         ser
+C:   00000270  C$ser.c$186$1$31                   ser
+C:   00000273  A$ser$1237                         ser
+C:   00000275  A$ser$1238                         ser
+C:   00000277  A$ser$1241                         ser
+C:   00000277  C$ser.c$187$1$31                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 28.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000027A  A$ser$1244                         ser
+C:   0000027A  C$ser.c$188$1$31                   ser
+C:   0000027D  A$ser$1247                         ser
+C:   0000027D  C$ser.c$189$1$31                   ser
+C:   0000027D  XG$readcounter$0$0                 ser
+C:   0000027E  A$ser$1260                         ser
+C:   0000027E  C$ser.c$193$1$31                   ser
+C:   0000027E  C$ser.c$194$1$33                   ser
+C:   0000027E  G$writecounter$0$0                 ser
+C:   0000027E  _writecounter                      ser
+C:   00000281  A$ser$1263                         ser
+C:   00000281  C$ser.c$195$1$33                   ser
+C:   00000284  A$ser$1264                         ser
+C:   00000287  A$ser$1267                         ser
+C:   00000287  C$ser.c$196$1$33                   ser
+C:   0000028A  A$ser$1268                         ser
+C:   0000028D  A$ser$1271                         ser
+C:   0000028D  C$ser.c$197$1$33                   ser
+C:   00000290  A$ser$1272                         ser
+C:   00000293  A$ser$1275                         ser
+C:   00000293  C$ser.c$198$1$33                   ser
+C:   00000296  A$ser$1276                         ser
+C:   00000299  A$ser$1279                         ser
+C:   00000299  C$ser.c$199$1$33                   ser
+C:   0000029C  A$ser$1280                         ser
+C:   0000029F  A$ser$1283                         ser
+C:   0000029F  C$ser.c$200$1$33                   ser
+C:   000002A2  A$ser$1284                         ser
+C:   000002A5  A$ser$1287                         ser
+C:   000002A5  C$ser.c$201$1$33                   ser
+C:   000002A8  A$ser$1288                         ser
+C:   000002AB  A$ser$1291                         ser
+C:   000002AB  C$ser.c$202$1$33                   ser
+C:   000002AE  A$ser$1292                         ser
+C:   000002B1  A$ser$1295                         ser
+C:   000002B1  C$ser.c$203$1$33                   ser
+C:   000002B4  A$ser$1296                         ser
+C:   000002B7  A$ser$1299                         ser
+C:   000002B7  C$ser.c$204$1$33                   ser
+C:   000002BA  A$ser$1300                         ser
+C:   000002BD  A$ser$1303                         ser
+C:   000002BD  C$ser.c$205$1$33                   ser
+C:   000002C0  A$ser$1304                         ser
+C:   000002C3  A$ser$1307                         ser
+C:   000002C3  C$ser.c$206$1$33                   ser
+C:   000002C6  A$ser$1310                         ser
+C:   000002C6  C$ser.c$208$1$33                   ser
+C:   000002C6  XG$writecounter$0$0                ser
+C:   000002C7  A$ser$1325                         ser
+C:   000002C7  C$ser.c$212$1$33                   ser
+C:   000002C7  G$compare$0$0                      ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 29.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000002C7  _compare                           ser
+C:   000002C9  A$ser$1328                         ser
+C:   000002C9  C$ser.c$213$1$33                   ser
+C:   000002CB  A$ser$1331                         ser
+C:   000002CB  C$ser.c$215$1$35                   ser
+C:   000002CE  A$ser$1334                         ser
+C:   000002D0  A$ser$1338                         ser
+C:   000002D0  C$ser.c$217$3$37                   ser
+C:   000002D1  A$ser$1339                         ser
+C:   000002D3  A$ser$1340                         ser
+C:   000002D4  A$ser$1341                         ser
+C:   000002D6  A$ser$1342                         ser
+C:   000002D7  A$ser$1343                         ser
+C:   000002DA  A$ser$1344                         ser
+C:   000002DB  A$ser$1345                         ser
+C:   000002DC  A$ser$1346                         ser
+C:   000002DD  A$ser$1347                         ser
+C:   000002E0  A$ser$1350                         ser
+C:   000002E0  C$ser.c$218$4$38                   ser
+C:   000002E1  A$ser$1351                         ser
+C:   000002E3  A$ser$1352                         ser
+C:   000002E4  A$ser$1353                         ser
+C:   000002E6  A$ser$1354                         ser
+C:   000002E9  A$ser$1357                         ser
+C:   000002E9  C$ser.c$219$5$39                   ser
+C:   000002EB  A$ser$1362                         ser
+C:   000002EB  C$ser.c$220$5$39                   ser
+C:   000002EB  C$ser.c$223$3$37                   ser
+C:   000002ED  A$ser$1366                         ser
+C:   000002ED  C$ser.c$216$2$36                   ser
+C:   000002EE  A$ser$1367                         ser
+C:   000002F1  A$ser$1369                         ser
+C:   000002F3  A$ser$1373                         ser
+C:   000002F3  C$ser.c$226$1$35                   ser
+C:   000002F6  A$ser$1376                         ser
+C:   000002F8  A$ser$1380                         ser
+C:   000002F8  C$ser.c$228$3$41                   ser
+C:   000002F9  A$ser$1381                         ser
+C:   000002FB  A$ser$1382                         ser
+C:   000002FC  A$ser$1383                         ser
+C:   000002FE  A$ser$1384                         ser
+C:   000002FF  A$ser$1385                         ser
+C:   00000302  A$ser$1386                         ser
+C:   00000303  A$ser$1387                         ser
+C:   00000304  A$ser$1388                         ser
+C:   00000305  A$ser$1389                         ser
+C:   00000308  A$ser$1392                         ser
+C:   00000308  C$ser.c$229$4$42                   ser
+C:   00000309  A$ser$1393                         ser
+C:   0000030B  A$ser$1394                         ser
+C:   0000030C  A$ser$1395                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 30.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000030E  A$ser$1396                         ser
+C:   00000311  A$ser$1399                         ser
+C:   00000311  C$ser.c$230$5$43                   ser
+C:   00000313  A$ser$1404                         ser
+C:   00000313  C$ser.c$231$5$43                   ser
+C:   00000313  C$ser.c$234$3$41                   ser
+C:   00000315  A$ser$1408                         ser
+C:   00000315  C$ser.c$227$2$40                   ser
+C:   00000316  A$ser$1409                         ser
+C:   00000319  A$ser$1411                         ser
+C:   0000031B  A$ser$1415                         ser
+C:   0000031B  C$ser.c$237$1$35                   ser
+C:   0000031E  A$ser$1418                         ser
+C:   00000320  A$ser$1422                         ser
+C:   00000320  C$ser.c$239$3$45                   ser
+C:   00000321  A$ser$1423                         ser
+C:   00000323  A$ser$1424                         ser
+C:   00000324  A$ser$1425                         ser
+C:   00000326  A$ser$1426                         ser
+C:   00000327  A$ser$1427                         ser
+C:   0000032A  A$ser$1428                         ser
+C:   0000032B  A$ser$1429                         ser
+C:   0000032C  A$ser$1430                         ser
+C:   0000032D  A$ser$1431                         ser
+C:   00000330  A$ser$1434                         ser
+C:   00000330  C$ser.c$240$4$46                   ser
+C:   00000331  A$ser$1435                         ser
+C:   00000333  A$ser$1436                         ser
+C:   00000334  A$ser$1437                         ser
+C:   00000336  A$ser$1438                         ser
+C:   00000339  A$ser$1441                         ser
+C:   00000339  C$ser.c$241$5$47                   ser
+C:   0000033B  A$ser$1446                         ser
+C:   0000033B  C$ser.c$242$5$47                   ser
+C:   0000033B  C$ser.c$245$3$45                   ser
+C:   0000033D  A$ser$1450                         ser
+C:   0000033D  C$ser.c$238$2$44                   ser
+C:   0000033E  A$ser$1451                         ser
+C:   00000341  A$ser$1453                         ser
+C:   00000343  A$ser$1457                         ser
+C:   00000343  C$ser.c$248$1$35                   ser
+C:   00000346  A$ser$1460                         ser
+C:   00000348  A$ser$1464                         ser
+C:   00000348  C$ser.c$250$3$49                   ser
+C:   00000349  A$ser$1465                         ser
+C:   0000034B  A$ser$1466                         ser
+C:   0000034C  A$ser$1467                         ser
+C:   0000034E  A$ser$1468                         ser
+C:   0000034F  A$ser$1469                         ser
+C:   00000352  A$ser$1470                         ser
+C:   00000353  A$ser$1471                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 31.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000354  A$ser$1472                         ser
+C:   00000355  A$ser$1473                         ser
+C:   00000358  A$ser$1476                         ser
+C:   00000358  C$ser.c$251$4$50                   ser
+C:   00000359  A$ser$1477                         ser
+C:   0000035B  A$ser$1478                         ser
+C:   0000035C  A$ser$1479                         ser
+C:   0000035E  A$ser$1480                         ser
+C:   00000361  A$ser$1483                         ser
+C:   00000361  C$ser.c$252$5$51                   ser
+C:   00000363  A$ser$1488                         ser
+C:   00000363  C$ser.c$253$5$51                   ser
+C:   00000363  C$ser.c$256$3$49                   ser
+C:   00000365  A$ser$1492                         ser
+C:   00000365  C$ser.c$249$2$48                   ser
+C:   00000366  A$ser$1493                         ser
+C:   00000369  A$ser$1495                         ser
+C:   0000036B  A$ser$1499                         ser
+C:   0000036B  C$ser.c$259$1$35                   ser
+C:   0000036E  A$ser$1502                         ser
+C:   00000370  A$ser$1506                         ser
+C:   00000370  C$ser.c$261$3$53                   ser
+C:   00000371  A$ser$1507                         ser
+C:   00000373  A$ser$1508                         ser
+C:   00000374  A$ser$1509                         ser
+C:   00000376  A$ser$1510                         ser
+C:   00000377  A$ser$1511                         ser
+C:   0000037A  A$ser$1512                         ser
+C:   0000037B  A$ser$1513                         ser
+C:   0000037C  A$ser$1514                         ser
+C:   0000037D  A$ser$1515                         ser
+C:   00000380  A$ser$1518                         ser
+C:   00000380  C$ser.c$262$4$54                   ser
+C:   00000381  A$ser$1519                         ser
+C:   00000383  A$ser$1520                         ser
+C:   00000384  A$ser$1521                         ser
+C:   00000386  A$ser$1522                         ser
+C:   00000389  A$ser$1525                         ser
+C:   00000389  C$ser.c$263$5$55                   ser
+C:   0000038B  A$ser$1530                         ser
+C:   0000038B  C$ser.c$264$5$55                   ser
+C:   0000038B  C$ser.c$267$3$53                   ser
+C:   0000038D  A$ser$1534                         ser
+C:   0000038D  C$ser.c$260$2$52                   ser
+C:   0000038E  A$ser$1535                         ser
+C:   00000391  A$ser$1537                         ser
+C:   00000393  A$ser$1541                         ser
+C:   00000393  C$ser.c$270$1$35                   ser
+C:   00000396  A$ser$1544                         ser
+C:   00000398  A$ser$1548                         ser
+C:   00000398  C$ser.c$272$3$57                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 32.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000399  A$ser$1549                         ser
+C:   0000039B  A$ser$1550                         ser
+C:   0000039C  A$ser$1551                         ser
+C:   0000039E  A$ser$1552                         ser
+C:   0000039F  A$ser$1553                         ser
+C:   000003A2  A$ser$1554                         ser
+C:   000003A3  A$ser$1555                         ser
+C:   000003A4  A$ser$1556                         ser
+C:   000003A5  A$ser$1557                         ser
+C:   000003A8  A$ser$1560                         ser
+C:   000003A8  C$ser.c$273$4$58                   ser
+C:   000003A9  A$ser$1561                         ser
+C:   000003AB  A$ser$1562                         ser
+C:   000003AC  A$ser$1563                         ser
+C:   000003AE  A$ser$1564                         ser
+C:   000003B1  A$ser$1567                         ser
+C:   000003B1  C$ser.c$274$5$59                   ser
+C:   000003B3  A$ser$1572                         ser
+C:   000003B3  C$ser.c$275$5$59                   ser
+C:   000003B3  C$ser.c$278$3$57                   ser
+C:   000003B5  A$ser$1576                         ser
+C:   000003B5  C$ser.c$271$2$56                   ser
+C:   000003B6  A$ser$1577                         ser
+C:   000003B9  A$ser$1579                         ser
+C:   000003BB  A$ser$1583                         ser
+C:   000003BB  C$ser.c$281$1$35                   ser
+C:   000003BE  A$ser$1586                         ser
+C:   000003C0  A$ser$1590                         ser
+C:   000003C0  C$ser.c$283$3$61                   ser
+C:   000003C1  A$ser$1591                         ser
+C:   000003C3  A$ser$1592                         ser
+C:   000003C4  A$ser$1593                         ser
+C:   000003C6  A$ser$1594                         ser
+C:   000003C7  A$ser$1595                         ser
+C:   000003CA  A$ser$1596                         ser
+C:   000003CB  A$ser$1597                         ser
+C:   000003CC  A$ser$1598                         ser
+C:   000003CD  A$ser$1599                         ser
+C:   000003D0  A$ser$1602                         ser
+C:   000003D0  C$ser.c$284$4$62                   ser
+C:   000003D1  A$ser$1603                         ser
+C:   000003D3  A$ser$1604                         ser
+C:   000003D4  A$ser$1605                         ser
+C:   000003D6  A$ser$1606                         ser
+C:   000003D9  A$ser$1609                         ser
+C:   000003D9  C$ser.c$285$5$63                   ser
+C:   000003DB  A$ser$1614                         ser
+C:   000003DB  C$ser.c$286$5$63                   ser
+C:   000003DB  C$ser.c$289$3$61                   ser
+C:   000003DD  A$ser$1618                         ser
+C:   000003DD  C$ser.c$282$2$60                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 33.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000003DE  A$ser$1619                         ser
+C:   000003E1  A$ser$1621                         ser
+C:   000003E3  A$ser$1625                         ser
+C:   000003E3  C$ser.c$292$1$35                   ser
+C:   000003E6  A$ser$1628                         ser
+C:   000003E8  A$ser$1632                         ser
+C:   000003E8  C$ser.c$294$3$65                   ser
+C:   000003E9  A$ser$1633                         ser
+C:   000003EB  A$ser$1634                         ser
+C:   000003EC  A$ser$1635                         ser
+C:   000003EE  A$ser$1636                         ser
+C:   000003EF  A$ser$1637                         ser
+C:   000003F2  A$ser$1638                         ser
+C:   000003F3  A$ser$1639                         ser
+C:   000003F4  A$ser$1640                         ser
+C:   000003F5  A$ser$1641                         ser
+C:   000003F8  A$ser$1642                         ser
+C:   000003FA  A$ser$1643                         ser
+C:   000003FD  A$ser$1646                         ser
+C:   000003FD  C$ser.c$295$4$66                   ser
+C:   00000400  A$ser$1647                         ser
+C:   00000402  A$ser$1653                         ser
+C:   00000402  C$ser.c$293$2$64                   ser
+C:   00000402  C$ser.c$297$3$65                   ser
+C:   00000403  A$ser$1654                         ser
+C:   00000406  A$ser$1656                         ser
+C:   00000408  A$ser$1660                         ser
+C:   00000408  C$ser.c$300$1$35                   ser
+C:   0000040A  A$ser$1663                         ser
+C:   0000040A  C$ser.c$301$1$35                   ser
+C:   0000040A  XG$compare$0$0                     ser
+C:   0000040B  A$ser$1681                         ser
+C:   0000040B  C$ser.c$302$1$35                   ser
+C:   0000040B  C$ser.c$303$1$35                   ser
+C:   0000040B  G$main$0$0                         ser
+C:   0000040B  _main                              ser
+C:   0000040D  A$ser$1684                         ser
+C:   0000040D  C$ser.c$305$1$35                   ser
+C:   0000040F  A$ser$1687                         ser
+C:   0000040F  C$ser.c$306$1$35                   ser
+C:   00000411  A$ser$1690                         ser
+C:   00000411  C$ser.c$308$1$35                   ser
+C:   00000413  A$ser$1691                         ser
+C:   00000415  A$ser$1694                         ser
+C:   00000415  C$ser.c$309$1$35                   ser
+C:   00000417  A$ser$1695                         ser
+C:   00000419  A$ser$1698                         ser
+C:   00000419  C$ser.c$310$1$35                   ser
+C:   0000041A  A$ser$1699                         ser
+C:   0000041C  A$ser$1700                         ser
+C:   0000041E  A$ser$1703                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 34.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000041E  C$ser.c$311$1$68                   ser
+C:   00000420  A$ser$1706                         ser
+C:   00000420  C$ser.c$312$1$68                   ser
+C:   00000422  A$ser$1708                         ser
+C:   00000424  A$ser$1709                         ser
+C:   00000425  A$ser$1710                         ser
+C:   00000426  A$ser$1711                         ser
+C:   00000427  A$ser$1712                         ser
+C:   00000429  A$ser$1715                         ser
+C:   00000429  C$ser.c$313$1$68                   ser
+C:   0000042B  A$ser$1717                         ser
+C:   0000042D  A$ser$1718                         ser
+C:   0000042E  A$ser$1719                         ser
+C:   0000042F  A$ser$1720                         ser
+C:   00000430  A$ser$1721                         ser
+C:   00000432  A$ser$1724                         ser
+C:   00000432  C$ser.c$314$1$68                   ser
+C:   00000435  A$ser$1727                         ser
+C:   00000435  C$ser.c$315$1$68                   ser
+C:   00000437  A$ser$1728                         ser
+C:   00000439  A$ser$1729                         ser
+C:   0000043B  A$ser$1730                         ser
+C:   0000043D  A$ser$1731                         ser
+C:   00000440  A$ser$1734                         ser
+C:   00000440  C$ser.c$316$1$68                   ser
+C:   00000443  A$ser$1735                         ser
+C:   00000445  A$ser$1736                         ser
+C:   00000447  A$ser$1737                         ser
+C:   00000449  A$ser$1738                         ser
+C:   0000044B  A$ser$1741                         ser
+C:   0000044B  C$ser.c$317$1$68                   ser
+C:   0000044D  A$ser$1742                         ser
+C:   0000044F  A$ser$1743                         ser
+C:   00000451  A$ser$1744                         ser
+C:   00000454  A$ser$1748                         ser
+C:   00000454  C$ser.c$318$1$68                   ser
+C:   00000456  A$ser$1749                         ser
+C:   00000458  A$ser$1750                         ser
+C:   0000045A  A$ser$1751                         ser
+C:   0000045D  A$ser$1755                         ser
+C:   0000045D  C$ser.c$319$1$68                   ser
+C:   0000045F  A$ser$1756                         ser
+C:   00000461  A$ser$1757                         ser
+C:   00000463  A$ser$1758                         ser
+C:   00000466  A$ser$1762                         ser
+C:   00000466  C$ser.c$320$1$68                   ser
+C:   00000468  A$ser$1763                         ser
+C:   0000046A  A$ser$1764                         ser
+C:   0000046C  A$ser$1765                         ser
+C:   0000046F  A$ser$1769                         ser
+C:   0000046F  C$ser.c$321$1$68                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 35.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000471  A$ser$1770                         ser
+C:   00000473  A$ser$1771                         ser
+C:   00000475  A$ser$1772                         ser
+C:   00000478  A$ser$1776                         ser
+C:   00000478  C$ser.c$322$1$68                   ser
+C:   0000047A  A$ser$1777                         ser
+C:   0000047C  A$ser$1778                         ser
+C:   0000047E  A$ser$1779                         ser
+C:   00000481  A$ser$1783                         ser
+C:   00000481  C$ser.c$323$1$68                   ser
+C:   00000483  A$ser$1784                         ser
+C:   00000485  A$ser$1785                         ser
+C:   00000487  A$ser$1786                         ser
+C:   0000048A  A$ser$1790                         ser
+C:   0000048A  C$ser.c$324$1$68                   ser
+C:   0000048C  A$ser$1791                         ser
+C:   0000048E  A$ser$1792                         ser
+C:   00000490  A$ser$1793                         ser
+C:   00000493  A$ser$1797                         ser
+C:   00000493  C$ser.c$325$1$68                   ser
+C:   00000495  A$ser$1798                         ser
+C:   00000497  A$ser$1799                         ser
+C:   00000499  A$ser$1800                         ser
+C:   0000049C  A$ser$1804                         ser
+C:   0000049C  C$ser.c$326$1$68                   ser
+C:   0000049F  A$ser$1805                         ser
+C:   000004A2  A$ser$1806                         ser
+C:   000004A4  A$ser$1807                         ser
+C:   000004A6  A$ser$1808                         ser
+C:   000004A8  A$ser$1809                         ser
+C:   000004AA  A$ser$1810                         ser
+C:   000004AD  A$ser$1813                         ser
+C:   000004AD  C$ser.c$327$1$68                   ser
+C:   000004B0  A$ser$1814                         ser
+C:   000004B3  A$ser$1817                         ser
+C:   000004B3  C$ser.c$328$1$68                   ser
+C:   000004B6  A$ser$1818                         ser
+C:   000004B9  A$ser$1819                         ser
+C:   000004BB  A$ser$1820                         ser
+C:   000004BD  A$ser$1821                         ser
+C:   000004BF  A$ser$1822                         ser
+C:   000004C1  A$ser$1828                         ser
+C:   000004C1  C$ser.c$329$1$68                   ser
+C:   000004C1  C$ser.c$330$2$69                   ser
+C:   000004C4  A$ser$1831                         ser
+C:   000004C4  C$ser.c$331$3$70                   ser
+C:   000004C6  A$ser$1834                         ser
+C:   000004C6  C$ser.c$332$3$70                   ser
+C:   000004C8  A$ser$1835                         ser
+C:   000004CA  A$ser$1836                         ser
+C:   000004CC  A$ser$1839                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 36.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000004CC  C$ser.c$333$4$71                   ser
+C:   000004CE  A$ser$1842                         ser
+C:   000004CE  C$ser.c$334$4$71                   ser
+C:   000004D0  A$ser$1845                         ser
+C:   000004D0  C$ser.c$335$4$71                   ser
+C:   000004D2  A$ser$1848                         ser
+C:   000004D2  C$ser.c$336$4$71                   ser
+C:   000004D4  A$ser$1849                         ser
+C:   000004D6  A$ser$1853                         ser
+C:   000004D6  C$ser.c$338$3$70                   ser
+C:   000004D8  A$ser$1854                         ser
+C:   000004DA  A$ser$1855                         ser
+C:   000004DD  A$ser$1856                         ser
+C:   000004DF  A$ser$1861                         ser
+C:   000004DF  C$ser.c$343$2$69                   ser
+C:   000004E2  A$ser$1862                         ser
+C:   000004E5  A$ser$1866                         ser
+C:   000004E5  C$ser.c$344$3$72                   ser
+C:   000004E7  A$ser$1867                         ser
+C:   000004E9  A$ser$1870                         ser
+C:   000004E9  C$ser.c$345$3$72                   ser
+C:   000004EA  A$ser$1871                         ser
+C:   000004EB  A$ser$1872                         ser
+C:   000004ED  A$ser$1875                         ser
+C:   000004ED  C$ser.c$346$4$73                   ser
+C:   000004EE  A$ser$1876                         ser
+C:   000004F1  A$ser$1877                         ser
+C:   000004F2  A$ser$1881                         ser
+C:   000004F2  C$ser.c$347$4$73                   ser
+C:   000004F5  A$ser$1885                         ser
+C:   000004F5  C$ser.c$349$3$72                   ser
+C:   000004F7  A$ser$1888                         ser
+C:   000004F7  C$ser.c$350$3$72                   ser
+C:   000004FA  A$ser$1889                         ser
+C:   000004FD  A$ser$1893                         ser
+C:   000004FD  C$ser.c$351$4$74                   ser
+C:   00000500  A$ser$1894                         ser
+C:   00000503  A$ser$1895                         ser
+C:   00000505  A$ser$1896                         ser
+C:   00000507  A$ser$1897                         ser
+C:   00000509  A$ser$1898                         ser
+C:   0000050B  A$ser$1899                         ser
+C:   0000050E  A$ser$1902                         ser
+C:   0000050E  C$ser.c$352$4$74                   ser
+C:   00000511  A$ser$1903                         ser
+C:   00000514  A$ser$1906                         ser
+C:   00000514  C$ser.c$353$4$74                   ser
+C:   00000517  A$ser$1907                         ser
+C:   0000051A  A$ser$1908                         ser
+C:   0000051C  A$ser$1909                         ser
+C:   0000051E  A$ser$1910                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 37.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000520  A$ser$1911                         ser
+C:   00000522  A$ser$1914                         ser
+C:   00000522  C$ser.c$354$4$74                   ser
+C:   00000524  A$ser$1917                         ser
+C:   00000524  C$ser.c$355$4$74                   ser
+C:   00000526  A$ser$1918                         ser
+C:   00000527  A$ser$1921                         ser
+C:   00000527  C$ser.c$356$4$74                   ser
+C:   00000528  A$ser$1922                         ser
+C:   0000052A  A$ser$1923                         ser
+C:   0000052C  A$ser$1924                         ser
+C:   0000052E  A$ser$1927                         ser
+C:   0000052E  C$ser.c$357$5$75                   ser
+C:   00000531  A$ser$1930                         ser
+C:   00000531  C$ser.c$358$5$75                   ser
+C:   00000533  A$ser$1931                         ser
+C:   00000534  A$ser$1932                         ser
+C:   00000535  A$ser$1933                         ser
+C:   00000537  A$ser$1937                         ser
+C:   00000537  C$ser.c$360$4$74                   ser
+C:   00000539  A$ser$1938                         ser
+C:   0000053B  A$ser$1939                         ser
+C:   0000053D  A$ser$1942                         ser
+C:   0000053D  C$ser.c$361$5$76                   ser
+C:   00000540  A$ser$1945                         ser
+C:   00000540  C$ser.c$362$5$76                   ser
+C:   00000542  A$ser$1946                         ser
+C:   00000543  A$ser$1947                         ser
+C:   00000544  A$ser$1948                         ser
+C:   00000546  A$ser$1952                         ser
+C:   00000546  C$ser.c$364$4$74                   ser
+C:   00000548  A$ser$1953                         ser
+C:   0000054A  A$ser$1954                         ser
+C:   0000054C  A$ser$1957                         ser
+C:   0000054C  C$ser.c$365$5$77                   ser
+C:   0000054F  A$ser$1960                         ser
+C:   0000054F  C$ser.c$366$5$77                   ser
+C:   00000551  A$ser$1961                         ser
+C:   00000552  A$ser$1962                         ser
+C:   00000553  A$ser$1963                         ser
+C:   00000555  A$ser$1967                         ser
+C:   00000555  C$ser.c$368$4$74                   ser
+C:   00000557  A$ser$1968                         ser
+C:   00000559  A$ser$1969                         ser
+C:   0000055B  A$ser$1972                         ser
+C:   0000055B  C$ser.c$369$5$78                   ser
+C:   0000055E  A$ser$1975                         ser
+C:   0000055E  C$ser.c$370$5$78                   ser
+C:   00000560  A$ser$1976                         ser
+C:   00000561  A$ser$1977                         ser
+C:   00000562  A$ser$1978                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 38.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000564  A$ser$1982                         ser
+C:   00000564  C$ser.c$372$4$74                   ser
+C:   00000566  A$ser$1983                         ser
+C:   00000568  A$ser$1984                         ser
+C:   0000056A  A$ser$1987                         ser
+C:   0000056A  C$ser.c$373$5$79                   ser
+C:   0000056D  A$ser$1990                         ser
+C:   0000056D  C$ser.c$374$5$79                   ser
+C:   0000056F  A$ser$1991                         ser
+C:   00000570  A$ser$1992                         ser
+C:   00000571  A$ser$1993                         ser
+C:   00000573  A$ser$1997                         ser
+C:   00000573  C$ser.c$376$4$74                   ser
+C:   00000575  A$ser$1998                         ser
+C:   00000577  A$ser$1999                         ser
+C:   00000579  A$ser$2002                         ser
+C:   00000579  C$ser.c$377$5$80                   ser
+C:   0000057C  A$ser$2005                         ser
+C:   0000057C  C$ser.c$378$5$80                   ser
+C:   0000057E  A$ser$2006                         ser
+C:   0000057F  A$ser$2007                         ser
+C:   00000580  A$ser$2008                         ser
+C:   00000582  A$ser$2012                         ser
+C:   00000582  C$ser.c$380$4$74                   ser
+C:   00000584  A$ser$2013                         ser
+C:   00000586  A$ser$2014                         ser
+C:   00000588  A$ser$2017                         ser
+C:   00000588  C$ser.c$381$5$81                   ser
+C:   0000058B  A$ser$2020                         ser
+C:   0000058B  C$ser.c$382$5$81                   ser
+C:   0000058D  A$ser$2021                         ser
+C:   0000058E  A$ser$2022                         ser
+C:   0000058F  A$ser$2023                         ser
+C:   00000591  A$ser$2027                         ser
+C:   00000591  C$ser.c$384$4$74                   ser
+C:   00000593  A$ser$2028                         ser
+C:   00000595  A$ser$2029                         ser
+C:   00000597  A$ser$2032                         ser
+C:   00000597  C$ser.c$385$5$82                   ser
+C:   0000059A  A$ser$2035                         ser
+C:   0000059A  C$ser.c$386$5$82                   ser
+C:   0000059C  A$ser$2036                         ser
+C:   0000059D  A$ser$2037                         ser
+C:   0000059E  A$ser$2038                         ser
+C:   000005A0  A$ser$2042                         ser
+C:   000005A0  C$ser.c$388$4$74                   ser
+C:   000005A2  A$ser$2043                         ser
+C:   000005A4  A$ser$2044                         ser
+C:   000005A6  A$ser$2047                         ser
+C:   000005A6  C$ser.c$389$5$83                   ser
+C:   000005A9  A$ser$2050                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 39.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005A9  C$ser.c$390$5$83                   ser
+C:   000005AB  A$ser$2051                         ser
+C:   000005AC  A$ser$2052                         ser
+C:   000005AD  A$ser$2053                         ser
+C:   000005AF  A$ser$2057                         ser
+C:   000005AF  C$ser.c$392$4$74                   ser
+C:   000005B1  A$ser$2058                         ser
+C:   000005B3  A$ser$2059                         ser
+C:   000005B5  A$ser$2060                         ser
+C:   000005B7  A$ser$2061                         ser
+C:   000005BA  A$ser$2062                         ser
+C:   000005BC  A$ser$2063                         ser
+C:   000005BE  A$ser$2064                         ser
+C:   000005C0  A$ser$2065                         ser
+C:   000005C2  A$ser$2066                         ser
+C:   000005C4  A$ser$2070                         ser
+C:   000005C4  C$ser.c$396$3$84                   ser
+C:   000005C6  A$ser$2071                         ser
+C:   000005C8  A$ser$2074                         ser
+C:   000005C8  C$ser.c$397$3$84                   ser
+C:   000005C9  A$ser$2075                         ser
+C:   000005CA  A$ser$2076                         ser
+C:   000005CC  A$ser$2079                         ser
+C:   000005CC  C$ser.c$398$4$85                   ser
+C:   000005CD  A$ser$2080                         ser
+C:   000005D0  A$ser$2081                         ser
+C:   000005D1  A$ser$2085                         ser
+C:   000005D1  C$ser.c$399$4$85                   ser
+C:   000005D3  A$ser$2089                         ser
+C:   000005D3  C$ser.c$401$3$84                   ser
+C:   000005D5  A$ser$2092                         ser
+C:   000005D5  C$ser.c$402$3$84                   ser
+C:   000005D8  A$ser$2095                         ser
+C:   000005D8  C$ser.c$403$4$86                   ser
+C:   000005DB  A$ser$2096                         ser
+C:   000005DE  A$ser$2097                         ser
+C:   000005E0  A$ser$2098                         ser
+C:   000005E2  A$ser$2099                         ser
+C:   000005E4  A$ser$2100                         ser
+C:   000005E6  A$ser$2101                         ser
+C:   000005E9  A$ser$2104                         ser
+C:   000005E9  C$ser.c$404$4$86                   ser
+C:   000005EC  A$ser$2105                         ser
+C:   000005EF  A$ser$2108                         ser
+C:   000005EF  C$ser.c$405$4$86                   ser
+C:   000005F2  A$ser$2109                         ser
+C:   000005F5  A$ser$2110                         ser
+C:   000005F7  A$ser$2111                         ser
+C:   000005F9  A$ser$2112                         ser
+C:   000005FB  A$ser$2113                         ser
+C:   000005FD  A$ser$2117                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 40.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000005FD  C$ser.c$407$3$84                   ser
+C:   000005FF  A$ser$2123                         ser
+C:   000005FF  C$ser.c$409$2$69                   ser
+C:   000005FF  C$ser.c$413$2$69                   ser
+C:   00000601  A$ser$2124                         ser
+C:   00000603  A$ser$2125                         ser
+C:   00000606  A$ser$2129                         ser
+C:   00000606  C$ser.c$414$3$87                   ser
+C:   00000609  A$ser$2130                         ser
+C:   0000060B  A$ser$2131                         ser
+C:   0000060D  A$ser$2132                         ser
+C:   0000060F  A$ser$2133                         ser
+C:   00000611  A$ser$2134                         ser
+C:   00000614  A$ser$2135                         ser
+C:   00000616  A$ser$2136                         ser
+C:   00000618  A$ser$2137                         ser
+C:   0000061A  A$ser$2138                         ser
+C:   0000061C  A$ser$2139                         ser
+C:   0000061E  A$ser$2140                         ser
+C:   00000621  A$ser$2143                         ser
+C:   00000621  C$ser.c$415$4$88                   ser
+C:   00000624  A$ser$2144                         ser
+C:   00000627  A$ser$2145                         ser
+C:   00000629  A$ser$2146                         ser
+C:   0000062B  A$ser$2147                         ser
+C:   0000062D  A$ser$2148                         ser
+C:   0000062F  A$ser$2149                         ser
+C:   00000632  A$ser$2150                         ser
+C:   00000634  A$ser$2151                         ser
+C:   00000636  A$ser$2152                         ser
+C:   00000638  A$ser$2153                         ser
+C:   0000063A  A$ser$2156                         ser
+C:   0000063A  C$ser.c$416$4$88                   ser
+C:   0000063C  A$ser$2159                         ser
+C:   0000063C  C$ser.c$417$4$88                   ser
+C:   0000063E  A$ser$2162                         ser
+C:   0000063E  C$ser.c$418$4$88                   ser
+C:   00000641  A$ser$2163                         ser
+C:   00000644  A$ser$2166                         ser
+C:   00000644  C$ser.c$419$4$88                   ser
+C:   00000646  A$ser$2170                         ser
+C:   00000646  C$ser.c$421$3$87                   ser
+C:   00000649  A$ser$2171                         ser
+C:   0000064B  A$ser$2172                         ser
+C:   0000064D  A$ser$2173                         ser
+C:   0000064F  A$ser$2174                         ser
+C:   00000651  A$ser$2175                         ser
+C:   00000654  A$ser$2176                         ser
+C:   00000656  A$ser$2177                         ser
+C:   00000658  A$ser$2178                         ser
+C:   0000065A  A$ser$2179                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 41.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000065C  A$ser$2180                         ser
+C:   0000065E  A$ser$2181                         ser
+C:   00000661  A$ser$2184                         ser
+C:   00000661  C$ser.c$422$4$89                   ser
+C:   00000663  A$ser$2187                         ser
+C:   00000663  C$ser.c$423$4$89                   ser
+C:   00000665  A$ser$2190                         ser
+C:   00000665  C$ser.c$424$4$89                   ser
+C:   00000667  A$ser$2193                         ser
+C:   00000667  C$ser.c$425$4$89                   ser
+C:   0000066A  A$ser$2194                         ser
+C:   0000066D  A$ser$2195                         ser
+C:   0000066F  A$ser$2196                         ser
+C:   00000671  A$ser$2197                         ser
+C:   00000673  A$ser$2198                         ser
+C:   00000675  A$ser$2199                         ser
+C:   00000678  A$ser$2200                         ser
+C:   0000067A  A$ser$2201                         ser
+C:   0000067C  A$ser$2202                         ser
+C:   0000067E  A$ser$2203                         ser
+C:   00000680  A$ser$2207                         ser
+C:   00000680  C$ser.c$427$3$87                   ser
+C:   00000683  A$ser$2208                         ser
+C:   00000685  A$ser$2209                         ser
+C:   00000687  A$ser$2210                         ser
+C:   00000689  A$ser$2211                         ser
+C:   0000068B  A$ser$2212                         ser
+C:   0000068E  A$ser$2213                         ser
+C:   00000690  A$ser$2214                         ser
+C:   00000692  A$ser$2215                         ser
+C:   00000694  A$ser$2216                         ser
+C:   00000696  A$ser$2217                         ser
+C:   00000698  A$ser$2218                         ser
+C:   0000069B  A$ser$2221                         ser
+C:   0000069B  C$ser.c$428$4$90                   ser
+C:   0000069D  A$ser$2224                         ser
+C:   0000069D  C$ser.c$429$4$90                   ser
+C:   0000069F  A$ser$2227                         ser
+C:   0000069F  C$ser.c$430$4$90                   ser
+C:   000006A1  A$ser$2230                         ser
+C:   000006A1  C$ser.c$431$4$90                   ser
+C:   000006A4  A$ser$2231                         ser
+C:   000006A7  A$ser$2232                         ser
+C:   000006A9  A$ser$2233                         ser
+C:   000006AB  A$ser$2234                         ser
+C:   000006AD  A$ser$2235                         ser
+C:   000006AF  A$ser$2236                         ser
+C:   000006B2  A$ser$2237                         ser
+C:   000006B4  A$ser$2238                         ser
+C:   000006B6  A$ser$2239                         ser
+C:   000006B8  A$ser$2240                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 42.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000006BA  A$ser$2244                         ser
+C:   000006BA  C$ser.c$433$3$87                   ser
+C:   000006BD  A$ser$2245                         ser
+C:   000006BF  A$ser$2246                         ser
+C:   000006C1  A$ser$2247                         ser
+C:   000006C3  A$ser$2248                         ser
+C:   000006C5  A$ser$2249                         ser
+C:   000006C8  A$ser$2250                         ser
+C:   000006CA  A$ser$2251                         ser
+C:   000006CC  A$ser$2252                         ser
+C:   000006CE  A$ser$2253                         ser
+C:   000006D0  A$ser$2254                         ser
+C:   000006D2  A$ser$2255                         ser
+C:   000006D5  A$ser$2256                         ser
+C:   000006D8  A$ser$2257                         ser
+C:   000006DB  A$ser$2258                         ser
+C:   000006DD  A$ser$2259                         ser
+C:   000006DF  A$ser$2260                         ser
+C:   000006E1  A$ser$2261                         ser
+C:   000006E3  A$ser$2262                         ser
+C:   000006E6  A$ser$2263                         ser
+C:   000006E8  A$ser$2264                         ser
+C:   000006EA  A$ser$2265                         ser
+C:   000006EC  A$ser$2266                         ser
+C:   000006EE  A$ser$2270                         ser
+C:   000006EE  C$ser.c$434$3$87                   ser
+C:   000006F1  A$ser$2271                         ser
+C:   000006F3  A$ser$2272                         ser
+C:   000006F5  A$ser$2273                         ser
+C:   000006F7  A$ser$2274                         ser
+C:   000006F9  A$ser$2275                         ser
+C:   000006FC  A$ser$2276                         ser
+C:   000006FE  A$ser$2277                         ser
+C:   00000700  A$ser$2278                         ser
+C:   00000702  A$ser$2279                         ser
+C:   00000704  A$ser$2280                         ser
+C:   00000706  A$ser$2281                         ser
+C:   00000709  A$ser$2284                         ser
+C:   00000709  C$ser.c$435$4$91                   ser
+C:   0000070C  A$ser$2287                         ser
+C:   0000070C  C$ser.c$436$5$92                   ser
+C:   0000070F  A$ser$2288                         ser
+C:   00000712  A$ser$2289                         ser
+C:   00000715  A$ser$2290                         ser
+C:   00000717  A$ser$2291                         ser
+C:   00000719  A$ser$2292                         ser
+C:   0000071B  A$ser$2293                         ser
+C:   0000071D  A$ser$2294                         ser
+C:   00000720  A$ser$2295                         ser
+C:   00000722  A$ser$2296                         ser
+C:   00000724  A$ser$2297                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 43.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000726  A$ser$2298                         ser
+C:   00000728  A$ser$2299                         ser
+C:   0000072A  A$ser$2303                         ser
+C:   0000072A  C$ser.c$437$5$92                   ser
+C:   0000072D  A$ser$2304                         ser
+C:   00000730  A$ser$2305                         ser
+C:   00000732  A$ser$2306                         ser
+C:   00000734  A$ser$2307                         ser
+C:   00000736  A$ser$2308                         ser
+C:   00000738  A$ser$2309                         ser
+C:   0000073B  A$ser$2310                         ser
+C:   0000073D  A$ser$2311                         ser
+C:   0000073F  A$ser$2312                         ser
+C:   00000741  A$ser$2313                         ser
+C:   00000743  A$ser$2317                         ser
+C:   00000743  C$ser.c$439$4$91                   ser
+C:   00000746  A$ser$2320                         ser
+C:   00000746  C$ser.c$440$5$93                   ser
+C:   00000749  A$ser$2321                         ser
+C:   0000074C  A$ser$2322                         ser
+C:   0000074F  A$ser$2323                         ser
+C:   00000751  A$ser$2324                         ser
+C:   00000753  A$ser$2325                         ser
+C:   00000755  A$ser$2326                         ser
+C:   00000757  A$ser$2327                         ser
+C:   0000075A  A$ser$2328                         ser
+C:   0000075C  A$ser$2329                         ser
+C:   0000075E  A$ser$2330                         ser
+C:   00000760  A$ser$2331                         ser
+C:   00000762  A$ser$2332                         ser
+C:   00000764  A$ser$2336                         ser
+C:   00000764  C$ser.c$441$5$93                   ser
+C:   00000767  A$ser$2337                         ser
+C:   0000076A  A$ser$2338                         ser
+C:   0000076C  A$ser$2339                         ser
+C:   0000076E  A$ser$2340                         ser
+C:   00000770  A$ser$2341                         ser
+C:   00000772  A$ser$2342                         ser
+C:   00000775  A$ser$2343                         ser
+C:   00000777  A$ser$2344                         ser
+C:   00000779  A$ser$2345                         ser
+C:   0000077B  A$ser$2346                         ser
+C:   0000077D  A$ser$2350                         ser
+C:   0000077D  C$ser.c$444$3$87                   ser
+C:   00000780  A$ser$2351                         ser
+C:   00000782  A$ser$2352                         ser
+C:   00000784  A$ser$2353                         ser
+C:   00000786  A$ser$2354                         ser
+C:   00000788  A$ser$2355                         ser
+C:   0000078B  A$ser$2356                         ser
+C:   0000078D  A$ser$2357                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 44.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000078F  A$ser$2358                         ser
+C:   00000791  A$ser$2359                         ser
+C:   00000793  A$ser$2360                         ser
+C:   00000795  A$ser$2361                         ser
+C:   00000798  A$ser$2364                         ser
+C:   00000798  C$ser.c$445$4$94                   ser
+C:   0000079B  A$ser$2367                         ser
+C:   0000079B  C$ser.c$446$4$94                   ser
+C:   0000079E  A$ser$2370                         ser
+C:   0000079E  C$ser.c$447$4$94                   ser
+C:   000007A1  A$ser$2373                         ser
+C:   000007A1  C$ser.c$448$4$94                   ser
+C:   000007A4  A$ser$2376                         ser
+C:   000007A4  C$ser.c$449$4$94                   ser
+C:   000007A7  A$ser$2379                         ser
+C:   000007A7  C$ser.c$450$4$94                   ser
+C:   000007AA  A$ser$2382                         ser
+C:   000007AA  C$ser.c$451$4$94                   ser
+C:   000007AD  A$ser$2385                         ser
+C:   000007AD  C$ser.c$452$4$94                   ser
+C:   000007B0  A$ser$2388                         ser
+C:   000007B0  C$ser.c$453$4$94                   ser
+C:   000007B3  A$ser$2391                         ser
+C:   000007B3  C$ser.c$454$4$94                   ser
+C:   000007B5  A$ser$2392                         ser
+C:   000007B7  A$ser$2393                         ser
+C:   000007B9  A$ser$2394                         ser
+C:   000007BB  A$ser$2395                         ser
+C:   000007BE  A$ser$2398                         ser
+C:   000007BE  C$ser.c$455$4$94                   ser
+C:   000007C1  A$ser$2399                         ser
+C:   000007C4  A$ser$2400                         ser
+C:   000007C7  A$ser$2401                         ser
+C:   000007C9  A$ser$2402                         ser
+C:   000007CB  A$ser$2403                         ser
+C:   000007CD  A$ser$2404                         ser
+C:   000007CF  A$ser$2408                         ser
+C:   000007CF  C$ser.c$457$3$87                   ser
+C:   000007D2  A$ser$2409                         ser
+C:   000007D4  A$ser$2410                         ser
+C:   000007D6  A$ser$2411                         ser
+C:   000007D8  A$ser$2412                         ser
+C:   000007DA  A$ser$2413                         ser
+C:   000007DD  A$ser$2414                         ser
+C:   000007DF  A$ser$2415                         ser
+C:   000007E1  A$ser$2416                         ser
+C:   000007E3  A$ser$2417                         ser
+C:   000007E5  A$ser$2418                         ser
+C:   000007E7  A$ser$2419                         ser
+C:   000007EA  A$ser$2422                         ser
+C:   000007EA  C$ser.c$458$4$95                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 45.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000007EC  A$ser$2423                         ser
+C:   000007EE  A$ser$2424                         ser
+C:   000007F0  A$ser$2425                         ser
+C:   000007F2  A$ser$2426                         ser
+C:   000007F5  A$ser$2429                         ser
+C:   000007F5  C$ser.c$459$4$95                   ser
+C:   000007F8  A$ser$2430                         ser
+C:   000007FB  A$ser$2431                         ser
+C:   000007FE  A$ser$2434                         ser
+C:   000007FE  C$ser.c$460$4$95                   ser
+C:   00000800  A$ser$2435                         ser
+C:   00000802  A$ser$2436                         ser
+C:   00000804  A$ser$2437                         ser
+C:   00000807  A$ser$2440                         ser
+C:   00000807  C$ser.c$461$4$95                   ser
+C:   00000809  A$ser$2441                         ser
+C:   0000080B  A$ser$2442                         ser
+C:   0000080D  A$ser$2443                         ser
+C:   00000810  A$ser$2446                         ser
+C:   00000810  C$ser.c$462$4$95                   ser
+C:   00000812  A$ser$2447                         ser
+C:   00000814  A$ser$2448                         ser
+C:   00000816  A$ser$2449                         ser
+C:   00000819  A$ser$2452                         ser
+C:   00000819  C$ser.c$463$4$95                   ser
+C:   0000081B  A$ser$2453                         ser
+C:   0000081D  A$ser$2454                         ser
+C:   0000081F  A$ser$2455                         ser
+C:   00000822  A$ser$2458                         ser
+C:   00000822  C$ser.c$464$4$95                   ser
+C:   00000824  A$ser$2459                         ser
+C:   00000826  A$ser$2460                         ser
+C:   00000828  A$ser$2461                         ser
+C:   0000082B  A$ser$2464                         ser
+C:   0000082B  C$ser.c$465$4$95                   ser
+C:   0000082D  A$ser$2465                         ser
+C:   0000082F  A$ser$2466                         ser
+C:   00000831  A$ser$2467                         ser
+C:   00000834  A$ser$2470                         ser
+C:   00000834  C$ser.c$466$4$95                   ser
+C:   00000836  A$ser$2471                         ser
+C:   00000838  A$ser$2472                         ser
+C:   0000083A  A$ser$2473                         ser
+C:   0000083D  A$ser$2476                         ser
+C:   0000083D  C$ser.c$467$4$95                   ser
+C:   0000083F  A$ser$2477                         ser
+C:   00000841  A$ser$2478                         ser
+C:   00000843  A$ser$2479                         ser
+C:   00000846  A$ser$2482                         ser
+C:   00000846  C$ser.c$468$4$95                   ser
+C:   00000848  A$ser$2483                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 46.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   0000084A  A$ser$2484                         ser
+C:   0000084C  A$ser$2485                         ser
+C:   0000084F  A$ser$2488                         ser
+C:   0000084F  C$ser.c$469$4$95                   ser
+C:   00000852  A$ser$2489                         ser
+C:   00000855  A$ser$2490                         ser
+C:   00000857  A$ser$2491                         ser
+C:   00000859  A$ser$2492                         ser
+C:   0000085B  A$ser$2493                         ser
+C:   0000085D  A$ser$2497                         ser
+C:   0000085D  C$ser.c$471$3$87                   ser
+C:   00000860  A$ser$2498                         ser
+C:   00000862  A$ser$2499                         ser
+C:   00000864  A$ser$2500                         ser
+C:   00000866  A$ser$2501                         ser
+C:   00000868  A$ser$2502                         ser
+C:   0000086B  A$ser$2503                         ser
+C:   0000086D  A$ser$2504                         ser
+C:   0000086F  A$ser$2505                         ser
+C:   00000871  A$ser$2506                         ser
+C:   00000873  A$ser$2507                         ser
+C:   00000875  A$ser$2508                         ser
+C:   00000878  A$ser$2509                         ser
+C:   0000087A  A$ser$2511                         ser
+C:   0000087D  A$ser$2515                         ser
+C:   0000087D  C$ser.c$472$4$96                   ser
+C:   0000087F  A$ser$2518                         ser
+C:   00000881  A$ser$2522                         ser
+C:   00000881  C$ser.c$474$5$97                   ser
+C:   00000882  A$ser$2523                         ser
+C:   00000884  A$ser$2524                         ser
+C:   00000885  A$ser$2525                         ser
+C:   00000887  A$ser$2526                         ser
+C:   0000088A  A$ser$2528                         ser
+C:   0000088C  A$ser$2529                         ser
+C:   0000088D  A$ser$2530                         ser
+C:   0000088F  A$ser$2531                         ser
+C:   00000890  A$ser$2532                         ser
+C:   00000891  A$ser$2533                         ser
+C:   00000892  A$ser$2534                         ser
+C:   00000894  A$ser$2535                         ser
+C:   00000896  A$ser$2539                         ser
+C:   00000896  C$ser.c$475$6$98                   ser
+C:   00000898  A$ser$2542                         ser
+C:   00000898  C$ser.c$476$6$98                   ser
+C:   0000089A  A$ser$2546                         ser
+C:   0000089A  C$ser.c$473$4$96                   ser
+C:   0000089B  A$ser$2547                         ser
+C:   0000089E  A$ser$2549                         ser
+C:   000008A0  A$ser$2553                         ser
+C:   000008A0  C$ser.c$479$4$96                   ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 47.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000008A3  A$ser$2556                         ser
+C:   000008A3  C$ser.c$480$5$99                   ser
+C:   000008A5  A$ser$2557                         ser
+C:   000008A7  A$ser$2558                         ser
+C:   000008A9  A$ser$2561                         ser
+C:   000008A9  C$ser.c$481$5$99                   ser
+C:   000008AB  A$ser$2562                         ser
+C:   000008AD  A$ser$2563                         ser
+C:   000008AF  A$ser$2566                         ser
+C:   000008AF  C$ser.c$482$5$99                   ser
+C:   000008B1  A$ser$2567                         ser
+C:   000008B3  A$ser$2568                         ser
+C:   000008B5  A$ser$2571                         ser
+C:   000008B5  C$ser.c$483$5$99                   ser
+C:   000008B7  A$ser$2572                         ser
+C:   000008B9  A$ser$2573                         ser
+C:   000008BB  A$ser$2576                         ser
+C:   000008BB  C$ser.c$484$5$99                   ser
+C:   000008BD  A$ser$2577                         ser
+C:   000008BF  A$ser$2578                         ser
+C:   000008C1  A$ser$2581                         ser
+C:   000008C1  C$ser.c$485$5$99                   ser
+C:   000008C3  A$ser$2582                         ser
+C:   000008C5  A$ser$2583                         ser
+C:   000008C7  A$ser$2586                         ser
+C:   000008C7  C$ser.c$486$5$99                   ser
+C:   000008C9  A$ser$2587                         ser
+C:   000008CB  A$ser$2588                         ser
+C:   000008CD  A$ser$2591                         ser
+C:   000008CD  C$ser.c$487$5$99                   ser
+C:   000008CF  A$ser$2592                         ser
+C:   000008D1  A$ser$2593                         ser
+C:   000008D3  A$ser$2596                         ser
+C:   000008D3  C$ser.c$488$5$99                   ser
+C:   000008D5  A$ser$2597                         ser
+C:   000008D7  A$ser$2598                         ser
+C:   000008D9  A$ser$2601                         ser
+C:   000008D9  C$ser.c$489$5$99                   ser
+C:   000008DB  A$ser$2602                         ser
+C:   000008DD  A$ser$2603                         ser
+C:   000008DF  A$ser$2604                         ser
+C:   000008E1  A$ser$2605                         ser
+C:   000008E4  A$ser$2608                         ser
+C:   000008E4  C$ser.c$490$5$99                   ser
+C:   000008E7  A$ser$2609                         ser
+C:   000008EA  A$ser$2610                         ser
+C:   000008ED  A$ser$2611                         ser
+C:   000008EF  A$ser$2612                         ser
+C:   000008F1  A$ser$2613                         ser
+C:   000008F3  A$ser$2614                         ser
+C:   000008F5  A$ser$2615                         ser
+ASxxxx Linker V03.00 + NoICE + sdld,  page 48.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CSEG                                0000008B    000008C8 =        2248. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   000008F7  A$ser$2619                         ser
+C:   000008F7  C$ser.c$492$4$96                   ser
+C:   000008FA  A$ser$2620                         ser
+C:   000008FD  A$ser$2621                         ser
+C:   000008FF  A$ser$2622                         ser
+C:   00000901  A$ser$2623                         ser
+C:   00000903  A$ser$2624                         ser
+C:   00000905  A$ser$2625                         ser
+C:   00000908  A$ser$2626                         ser
+C:   0000090A  A$ser$2627                         ser
+C:   0000090C  A$ser$2628                         ser
+C:   0000090E  A$ser$2629                         ser
+C:   00000910  A$ser$2633                         ser
+C:   00000910  C$ser.c$494$3$87                   ser
+C:   00000913  A$ser$2636                         ser
+C:   00000913  C$ser.c$495$3$87                   ser
+C:   00000916  A$ser$2637                         ser
+C:   00000918  A$ser$2638                         ser
+C:   0000091A  A$ser$2639                         ser
+C:   0000091C  A$ser$2640                         ser
+C:   0000091E  A$ser$2641                         ser
+C:   00000921  A$ser$2644                         ser
+C:   00000921  C$ser.c$496$3$87                   ser
+C:   00000924  A$ser$2645                         ser
+C:   00000927  A$ser$2646                         ser
+C:   00000929  A$ser$2647                         ser
+C:   0000092B  A$ser$2648                         ser
+C:   0000092D  A$ser$2649                         ser
+C:   0000092F  A$ser$2650                         ser
+C:   00000932  A$ser$2653                         ser
+C:   00000932  C$ser.c$499$1$68                   ser
+C:   00000932  XG$main$0$0                        ser
+C:   00000933  __gptrget                          _gptrget
+C:   0000094F  __sdcc_external_startup            _startup
+ASxxxx Linker V03.00 + NoICE + sdld,  page 49.
+Hexadecimal  [32-Bits]
+
+Area                                    Addr        Size        Decimal Bytes (Attributes)
+--------------------------------        ----        ----        ------- ----- ------------
+CONST                               00000953    000000E0 =         224. bytes (REL,CON,CODE)
+
+      Value  Global                              Global Defined In Module
+      -----  --------------------------------   ------------------------
+C:   00000953  G$open1$0$0                        ser
+C:   00000953  _open1                             ser
+C:   0000095A  G$out1on$0$0                       ser
+C:   0000095A  _out1on                            ser
+C:   00000962  G$out1off$0$0                      ser
+C:   00000962  _out1off                           ser
+C:   0000096B  G$ping$0$0                         ser
+C:   0000096B  _ping                              ser
+C:   00000971  G$stat$0$0                         ser
+C:   00000971  _stat                              ser
+C:   00000977  G$resetctr$0$0                     ser
+C:   00000977  _resetctr                          ser
+C:   00000981  G$readctr$0$0                      ser
+C:   00000981  _readctr                           ser
+C:   0000098A  G$editctr$0$0                      ser
+C:   0000098A  _editctr                           ser
+C:   00000992  Fser$__str_0$0$0                   ser
+C:   000009A1  Fser$__str_1$0$0                   ser
+C:   000009A9  Fser$__str_2$0$0                   ser
+C:   000009B2  Fser$__str_3$0$0                   ser
+C:   000009BC  Fser$__str_4$0$0                   ser
+C:   000009C7  Fser$__str_5$0$0                   ser
+C:   000009D3  Fser$__str_6$0$0                   ser
+C:   000009DC  Fser$__str_7$0$0                   ser
+C:   000009E5  Fser$__str_8$0$0                   ser
+C:   000009EE  Fser$__str_9$0$0                   ser
+C:   000009F7  Fser$__str_10$0$0                  ser
+C:   00000A00  Fser$__str_11$0$0                  ser
+C:   00000A0D  Fser$__str_12$0$0                  ser
+C:   00000A1A  Fser$__str_13$0$0                  ser
+C:   00000A26  Fser$__str_14$0$0                  ser
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 50.
+
+Files Linked                              [ module(s) ]
+
+ser.rel                                   [  ]
+
+
+Libraries Linked                          [ object file ]
+
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxinit.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtxclear.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtpagesfr.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/mcs51.lib
+                                          [ crtstart.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _gptrget.rel ]
+C:\Program Files\SDCC\bin\..\lib\small/libsdcc.lib
+                                          [ _startup.rel ]
+
+ASxxxx Linker V03.00 + NoICE + sdld,  page 51.
+
+User Base Address Definitions
+
+HOME = 0x0000
+XSEG = 0x0001
+PSEG = 0x0001
+ISEG = 0x0000
+BSEG = 0x0000
+
+

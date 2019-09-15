@@ -1,0 +1,45 @@
+C1       22P                  	2
+C3       10u/16v            	7     
+C7       100U/16V             	1
+C10      100N               	3
+
+C18      1000U/25V           	1
+D1       1N4002                 3
+IC2      MAX232              	1
+IC3      7805                   1
+
+IC5      MEGA8-P  		1               
+K1       RELAY12V           	1
+OK1      PC817              	3
+Q1       12MHZ             	1
+Q2       BC548             	1
+
+
+R1       10K                
+R2       330R               
+R4       330R             
+R5       10K                
+R6       10K               
+R8       1K               
+R9       10K                   
+R10      330R               
+R11      330R                
+R12      330R               
+
+  
+SV2      CON DB9 CEWEK     
+X1       TBLOCK6P       	1   
+
+
+BOX ABU2		4
+JACKAC BUNTUNG		4
+COVERDB9		5
+KABEL STEREO		7METER
+TRAFO CT12V		4
+mur+baut		30
+speacer			8
+kabel 6p		5meter
+led 5mm	hijau		20
+led 5mm merah		5
+lem
+				

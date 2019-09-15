@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>TES GATE</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>60</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>COM</string>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>OPEN</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>COM 1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>COM 20</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>160</y>
+     <width>341</width>
+     <height>305</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>70</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>GATE OPEN</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>20</y>
+     <width>341</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>TES INTERFACE GATE BARRIER</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_3">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>110</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>AUTO GATE ON</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_4">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>470</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>clear</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>textEdit</receiver>
+   <slot>clear()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>358</x>
+     <y>478</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>340</x>
+     <y>429</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
