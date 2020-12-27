@@ -1,14 +1,14 @@
 #include <Arduino.h>
 #include "Event.h"
 
-const int inputA = 6;
+const int inputA = 8;
 const int inputB = 7;
-const int inputC = 8;
+const int inputC = 6;
 const int relay = 5;
 
-const int ledA = 9;
-const int ledB = 10;
 const int ledC = 11;
+const int ledB = 10;
+const int ledA = 9;
 const int ledQ = 12;
 
 Event Send = Event(500);
@@ -36,34 +36,43 @@ void loop()
   if (digitalRead(inputA) == LOW)
   {
     inputStatus += 1;
-    if ((millis() % 600) < 300)
+    if ((millis() % 500) < 250)
       digitalWrite(ledA, HIGH);
     else
       digitalWrite(ledA, LOW);
   }
+  else
+  {
+    digitalWrite(ledA, LOW);
+  }
+
   if (digitalRead(inputB) == LOW)
   {
     inputStatus += 2;
-    if ((millis() % 600) < 300)
+    if ((millis() % 500) < 250)
       digitalWrite(ledB, HIGH);
     else
       digitalWrite(ledB, LOW);
   }
+  else
+  {
+    digitalWrite(ledB, LOW);
+  }
+
   if (digitalRead(inputC) == LOW)
   {
     inputStatus += 4;
-    if ((millis() % 600) < 300)
+    if ((millis() % 500) < 250)
       digitalWrite(ledC, HIGH);
     else
       digitalWrite(ledC, LOW);
   }
-  if (inputStatus == 0)
+  else
   {
-    digitalWrite(ledA, LOW);
-    digitalWrite(ledB, LOW);
     digitalWrite(ledC, LOW);
   }
-  else
+
+  if (inputStatus > 0)
   {
     if (Send.getEvent())
     {
@@ -73,30 +82,26 @@ void loop()
         Serial.println('A');
         break;
       case 2:
-        Serial.println('B');
-        break;
-      case 3:
-        Serial.println('D');
-        break;
-      case 4:
         Serial.println('C');
         break;
-      case 5:
+      case 3:
+        Serial.println('B');
+        break;
+      case 4:
         Serial.println('E');
         break;
-      case 6:
-        Serial.println('F');
-        break;
-      case 7:
+      case 5:
         Serial.println('H');
         break;
-      
-      // default:
-      //   break;
-      // }
-    }    
+      case 6:
+        Serial.println('D');
+        break;
+      case 7:
+        Serial.println('G');
+        break;
+      }
+    }
   }
-  
 
   if (Serial.available())
   {
