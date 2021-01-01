@@ -1,5 +1,6 @@
 #include <Arduino.h>
 #include "Event.h"
+#include <avr/wdt.h>
 
 const int inputA = 8;
 const int inputB = 7;
@@ -28,10 +29,12 @@ void setup()
   pinMode(ledC, OUTPUT);
   pinMode(ledQ, OUTPUT);
   Serial.begin(9600);
+  wdt_enable(WDTO_1S);
 }
 
 void loop()
 {
+  wdt_reset();
   int inputStatus = 0;
   if (digitalRead(inputA) == LOW)
   {
