@@ -39,7 +39,7 @@ void loop()
   if (digitalRead(inputA) == LOW)
   {
     inputStatus += 1;
-    if ((millis() % 500) < 250)
+    if ((millis() % 400) < 200)
       digitalWrite(ledA, HIGH);
     else
       digitalWrite(ledA, LOW);
@@ -52,7 +52,7 @@ void loop()
   if (digitalRead(inputB) == LOW)
   {
     inputStatus += 2;
-    if ((millis() % 500) < 250)
+    if ((millis() % 400) < 200)
       digitalWrite(ledB, HIGH);
     else
       digitalWrite(ledB, LOW);
@@ -65,7 +65,7 @@ void loop()
   if (digitalRead(inputC) == LOW)
   {
     inputStatus += 4;
-    if ((millis() % 500) < 250)
+    if ((millis() % 400) < 200)
       digitalWrite(ledC, HIGH);
     else
       digitalWrite(ledC, LOW);
