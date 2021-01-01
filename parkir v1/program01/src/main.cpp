@@ -14,7 +14,7 @@ const int ledQ = 12;
 
 Event Send = Event(500);
 
-int pulse;
+uint8_t pulse;
 unsigned long previousMillis;
 
 void setup()
